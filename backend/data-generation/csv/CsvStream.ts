@@ -13,6 +13,7 @@ export class CsvWriter {
       keys.forEach(key => {
         row += item[key] + ','
       })
+      row = row.substring(0, row.length - 1);
       row += '\n'
       content += row
     })
