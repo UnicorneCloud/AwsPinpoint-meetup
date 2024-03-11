@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["es2020", "dom"],
+    "rootDir": ".",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "declaration": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": ["customTypings", "node_modules/@types", "../node_modules/@types"],
+    "baseUrl": ".",
+    "types": ["node"],
+    "resolveJsonModule": true, // allows importing json files
+    "paths": {
+      "~/backend/*": ["./*"]
+    }
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "exclude": ["node_modules", "build"]
+}
