@@ -321,6 +321,8 @@ fabric.properties
 # comment the following lines
 !.yarn/cache
 
+.yarnrc.yml
+
 # and uncomment the following lines
 # .pnp.*
 

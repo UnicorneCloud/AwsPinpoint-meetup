@@ -22,7 +22,8 @@ export enum MovieCategories {
   Foreign = 'Foreign',
   Independent = 'Independent',
   Classic = 'Classic',
-  Cult = 'Cult'
+  Cult = 'Cult',
+  Mythology = 'Mythology',
 }
 
 export const PossibleMovieCategories = Object.values(MovieCategories)

@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-export class CsvWriter {
+export class CsvStream {
   write<T extends object>(data: T[], path: string): void {
     const type = data[0]
     const keys = Object.keys(type) as (keyof T)[]
@@ -18,6 +18,6 @@ export class CsvWriter {
       content += row
     })
 
-    fs.writeFileSync(`${path}.csv`, content);
+    fs.writeFileSync(`${path}.csv`, content, { encoding: 'utf-8' });
   }
 }
