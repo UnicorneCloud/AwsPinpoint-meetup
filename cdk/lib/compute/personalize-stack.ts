@@ -22,7 +22,7 @@ export class PersonalizeStack extends Stack {
     personalizeRole.attachInlinePolicy(new iam.Policy(this, 'personalize-inline-policy', {
       statements: [
         new iam.PolicyStatement({
-          actions: ['s3:GetObject', 's3:ListBucket'],
+          actions: ['s3:*'],
           resources: [bucket.bucketArn, `${bucket.bucketArn}/*`]
         }),
       ]
