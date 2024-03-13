@@ -9,7 +9,7 @@ export class AWSPersonalizeMovieRecommender {
   async getMoviesIdsRecommendations(userId: string, numberOfResults: number): Promise<string[]> {
     const request: GetRecommendationsCommand = new GetRecommendationsCommand({
       campaignArn: CAMPAIGN_ARN,
-      userId: userId,
+      itemId: userId,
       numResults: numberOfResults,
     })
     const { itemList } = await this.personalizeClient.send(request)
