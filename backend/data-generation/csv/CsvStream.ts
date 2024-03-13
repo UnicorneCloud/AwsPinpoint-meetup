@@ -1,3 +1,4 @@
+import { Injector } from '@sailplane/injector'
 import fs from 'fs'
 
 export class CsvStream {
@@ -35,3 +36,5 @@ export class CsvStream {
     return data
   }
 }
+
+Injector.register(CsvStream)

@@ -1,8 +1,10 @@
 import * as cdk from 'aws-cdk-lib'
-import { PersonalizeStack, S3Stack } from '../lib'
+import { MoviesStack, PersonalizeStack, S3Stack } from '../lib'
 
 const app = new cdk.App()
 
-// new S3Stack(app, 'UniStreamingS3')
+const s3Stack = new S3Stack(app, 'UniStreamingS3')
 
 // new PersonalizeStack(app, 'UniStreamingPersonalize')
+
+new MoviesStack(app, 'UniStreamingMoviesStack', { bucket: s3Stack.bucket })

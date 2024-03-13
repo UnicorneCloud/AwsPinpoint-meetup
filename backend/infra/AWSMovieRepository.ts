@@ -32,14 +32,24 @@ export class AWSMovieRepository implements MovieRepository {
     }
   }
 
-  public async getMoviesRecommendations(userId: string): Promise<Movie[]> {
-    const request = new GetObjectCommand({
-      Bucket: BUCKET_NAME,
-      Key: 'movies_raw.csv'
-    })
-    const moviesCsv = this.S3Client.send(request)
-    throw new Error("Method not implemented.");
+  public async getMoviesRecommendations(userId: string, numberOfRecommendations: number): Promise<Movie[]> {
+    await this.syncMovies()
+
+    if (this.movies) {
+      const ids = await this.recommender.getMoviesIdsRecommendations(userId, numberOfRecommendations)
+      return ids.map(id => this.movies[id])
+    }
+
+    return []
   }
 }
 
-Injector.register(AWSMovieRepository, [AWSPersonalizeMovieRecommender])
+const create = () => {
+  return new AWSMovieRepository(
+    Injector.get(AWSPersonalizeMovieRecommender)!,
+    new S3Client({ region: 'ca-central-1' }),
+    Injector.get(CsvStream)!,
+  )
+}
+
+Injector.register(AWSMovieRepository, create)
