@@ -1,15 +1,16 @@
 import { Injector } from "@sailplane/injector";
 import { PersonalizeRuntimeClient, GetRecommendationsCommand } from "@aws-sdk/client-personalize-runtime"
 
-const CAMPAIGN_ARN = 'arn:aws:personalize:ca-central-1:392199159898:campaign/test-campaigns'
+const SIMS_CAMPAIGN_ARN = 'arn:aws:personalize:ca-central-1:392199159898:campaign/test-campaigns'
+const PERSONALIZATION_CAMPAIGN_ARN = 'arn:aws:personalize:ca-central-1:392199159898:campaign/test-personalization-campaign'
 
 export class AWSPersonalizeMovieRecommender {
   constructor(private personalizeClient: PersonalizeRuntimeClient) {}
 
   async getMoviesIdsRecommendations(userId: string, numberOfResults: number): Promise<string[]> {
     const request: GetRecommendationsCommand = new GetRecommendationsCommand({
-      campaignArn: CAMPAIGN_ARN,
-      itemId: userId,
+      campaignArn: PERSONALIZATION_CAMPAIGN_ARN,
+      userId: userId,
       numResults: numberOfResults,
     })
     const { itemList } = await this.personalizeClient.send(request)

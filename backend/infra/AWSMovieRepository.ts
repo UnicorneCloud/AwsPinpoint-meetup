@@ -5,7 +5,7 @@ import { Movie, MovieRepository } from "../domain";
 import { AWSPersonalizeMovieRecommender } from "./AWSPersonalizeMovieRecommender";
 import { CsvStream } from "../data-generation/csv";
 
-const BUCKET_NAME = 'test-meetup-personalize'
+const BUCKET_NAME = 'uni-streaming-bucket'
 
 export class AWSMovieRepository implements MovieRepository {
   private movies: Record<string, Movie>

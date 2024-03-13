@@ -1,5 +1,6 @@
 import { Construct } from 'constructs';
 import * as s3 from 'aws-cdk-lib/aws-s3';
+import * as iam from 'aws-cdk-lib/aws-iam';
 import { RemovalPolicy, Stack, StackProps } from 'aws-cdk-lib';
 
 export class S3Stack extends Stack {
@@ -11,5 +12,11 @@ export class S3Stack extends Stack {
       bucketName: 'uni-streaming-bucket',
       removalPolicy: RemovalPolicy.DESTROY,
     })
+
+    this.bucket.addToResourcePolicy(new iam.PolicyStatement({
+      actions: ['s3:GetObject', 's3:ListBucket'],
+      resources: [this.bucket.bucketArn, `${this.bucket.bucketArn}/*`],
+      principals: [new iam.ServicePrincipal('personalize.amazonaws.com')]
+    }))
   }
 }

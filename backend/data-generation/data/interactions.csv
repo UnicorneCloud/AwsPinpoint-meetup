@@ -1,4 +1,4 @@
-Id,USER_ID,UserGender,UserAge,EVENT_TYPE,Timestamp,ITEM_ID,MovieName,MovieCategory
+Id,USER_ID,UserGender,UserAge,EVENT_TYPE,TIMESTAMP,ITEM_ID,MovieName,MovieCategory
 0,135,other,93,Watch,1709547879,418,Up Around the Bend,Mythology
 1,208,female,48,Watch,1708206248,885,I Wanna Dance With Somebody (Who Loves Me),Animation
 2,435,female,99,Watch,1707108952,70,Wanted,Biography

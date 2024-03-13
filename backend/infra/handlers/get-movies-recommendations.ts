@@ -8,6 +8,8 @@ export const handler = async (event: any) => {
   const movies = await service.getMoviesRecommendations(userId, numberOfRecommendations)
   return {
     statusCode: 200,
-    body: JSON.stringify({ movies }),
+    body: {
+      movies
+    },
   }
 }

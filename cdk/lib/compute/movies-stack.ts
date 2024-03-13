@@ -36,7 +36,7 @@ export class MoviesStack extends Stack {
         }),
         new iam.PolicyStatement({
           actions: ['personalize:GetRecommendations'],
-          resources: ['arn:aws:personalize:ca-central-1:392199159898:campaign/test-campaigns']
+          resources: ['arn:aws:personalize:ca-central-1:392199159898:campaign/test-campaigns', 'arn:aws:personalize:ca-central-1:392199159898:campaign/test-personalization-campaign']
         })
       ]
     }))
