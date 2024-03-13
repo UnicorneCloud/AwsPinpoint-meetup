@@ -16,13 +16,17 @@ export class PersonalizeStack extends Stack {
     const { bucket } = props
 
     const personalizeRole = new iam.Role(this, 'personalize-role', {
-      assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com')
+      assumedBy: new iam.ServicePrincipal('personalize.amazonaws.com')
     })
 
     personalizeRole.attachInlinePolicy(new iam.Policy(this, 'personalize-inline-policy', {
       statements: [
         new iam.PolicyStatement({
-          actions: ['s3:*'],
+          actions: [
+            "s3:GetObject",
+            "s3:PutObject",
+            "s3:ListBucket",
+          ],
           resources: [bucket.bucketArn, `${bucket.bucketArn}/*`]
         }),
       ]
@@ -82,7 +86,7 @@ export class PersonalizeStack extends Stack {
       name: 'uni-streaming-items-dataset',
       datasetImportJob: {
         dataSource: {
-          DataLocation: `s3://${bucket.bucketName}/items.csv`
+          DataLocation: `s3://${bucket.bucketName}/movies.csv`
         },
         roleArn: personalizeRole.roleArn,
         jobName: 'uni-streaming-items-dataset-import-job'

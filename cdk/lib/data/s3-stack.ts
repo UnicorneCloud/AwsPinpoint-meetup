@@ -14,7 +14,11 @@ export class S3Stack extends Stack {
     })
 
     this.bucket.addToResourcePolicy(new iam.PolicyStatement({
-      actions: ['s3:*'],
+      actions: [
+        "s3:GetObject",
+        "s3:PutObject",
+        "s3:ListBucket",
+      ],
       resources: [this.bucket.bucketArn, `${this.bucket.bucketArn}/*`],
       principals: [new iam.ServicePrincipal('personalize.amazonaws.com')]
     }))
