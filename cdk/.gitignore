@@ -326,4 +326,8 @@ fabric.properties
 # and uncomment the following lines
 # .pnp.*
 
+# CDK
+
+cdk.out
+
 # End of https://www.toptal.com/developers/gitignore/api/node,yarn,macos,visualstudiocode

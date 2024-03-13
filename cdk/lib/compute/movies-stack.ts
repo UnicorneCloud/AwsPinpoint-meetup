@@ -16,19 +16,19 @@ export class MoviesStack extends Stack {
 
     const { bucket } = props
 
-    const lambdaRole = new iam.Role(this, 'LambdaRole', {
+    const lambdaRole = new iam.Role(this, 'get-movies-recommendations-role', {
       assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com')
     })
 
     // Lambda function
-    const getMoviesRecommendationsHandler = new lambdaNodeJs.NodejsFunction(this, 'getMoviesRecommendationsHandler', {
+    const getMoviesRecommendationsHandler = new lambdaNodeJs.NodejsFunction(this, 'get-movies-recommendations-handler', {
       ...ProjectDefaultLambdaProps,
       entry: '../backend/infra/handlers/get-movies-recommendations.ts',
       role: lambdaRole,
     })
 
     // Grant Lambda access to S3
-    getMoviesRecommendationsHandler.role?.attachInlinePolicy(new iam.Policy(this, 'S3AccessPolicy', {
+    getMoviesRecommendationsHandler.role?.attachInlinePolicy(new iam.Policy(this, 'get-movies-recommendations-inline-policy', {
       statements: [
         new iam.PolicyStatement({
           actions: ['s3:GetObject'],

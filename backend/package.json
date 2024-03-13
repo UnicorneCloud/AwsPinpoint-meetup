@@ -35,6 +35,7 @@
     "@faker-js/faker": "^8.4.1",
     "@sailplane/injector": "^4.0.0",
     "@sailplane/logger": "^5.0.0",
+    "bottlejs": "^2.0.1",
     "dayjs": "^1.11.10",
     "probability-distributions": "^0.9.1"
   }

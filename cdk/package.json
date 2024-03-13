@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "diff:dev": "aws-vault exec hackathon -- cdk diff -c",
-    "deploy": "aws-vault exec hackathon -- cdk deploy '*' -c --concurrency 8"
+    "diff": "aws-vault exec hackathon -- cdk diff",
+    "deploy": "aws-vault exec hackathon -- cdk deploy '*' --concurrency 8"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
@@ -13,6 +13,7 @@
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/eslint-plugin-tslint": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
+    "esbuild": "^0.20.1",
     "eslint": "^8.56.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.1.0",

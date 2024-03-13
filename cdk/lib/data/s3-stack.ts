@@ -7,8 +7,8 @@ export class S3Stack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    this.bucket = new s3.Bucket(this, 'UniStreamingBucket', {
-      bucketName: 'UniStreamingBucket',
+    this.bucket = new s3.Bucket(this, 'uni-streaming-bucket', {
+      bucketName: 'uni-streaming-bucket',
       removalPolicy: RemovalPolicy.DESTROY,
     })
   }
