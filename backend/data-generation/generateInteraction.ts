@@ -10,7 +10,7 @@ export function generateWatchInteraction(id: string, user: User, movie: Movie): 
     UserAge: user.Age,
     Type: InteractionTypes.Watch,
     // UNIX epoch
-    Timestamp: faker.date.between({ from: new Date('2024-02-01'), to: new Date() }).getTime() / 1000,
+    Timestamp: Math.floor(faker.date.between({ from: new Date('2024-02-01'), to: new Date() }).getTime() / 1000),
     MovieId: movie.Id,
     MovieName: movie.Name,
     MovieCategory: movie.Category,

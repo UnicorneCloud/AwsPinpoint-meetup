@@ -1,4 +1,4 @@
-USER_ID,Email,FullName,Age,Gender
+Id,Email,FullName,Age,Gender
 0,user-0@simulator.amazonses.com,Mr. Terrence Tillman,55,male
 1,user-1@simulator.amazonses.com,Nellie O'Reilly,59,male
 2,user-2@simulator.amazonses.com,Mr. Charles Romaguera,73,female
