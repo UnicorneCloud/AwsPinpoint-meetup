@@ -7,6 +7,7 @@ export interface Demographic {
   ModelVersion: string,
   Platform: string,
   PlatformVersion: string,
+  Locale: string,
 }
 
 export interface Location {

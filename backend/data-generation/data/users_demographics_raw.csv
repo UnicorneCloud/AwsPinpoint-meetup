@@ -1,0 +1,1001 @@
+UserId,AppVersion,Make,Model,ModelVersion,Platform,PlatformVersion,Locale,City,Country,PostalCode,Latitude,Longitude
+0,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Fort Dorisside,DOM,A7A 6A0,7.1751,157.305
+1,Android,Samsumg,g17,18,Android,Cake,en_US,West Kileymouth,SVK,A3A 8A5,-12.0672,-53.5502
+2,Android,Samsumg,g17,18,Android,Cake,en_CA,Gloverview,ATA,A2A 0A6,-88.4665,-150.0855
+3,Android,Samsumg,g17,18,Android,Cake,fr_CA,Mishawaka,FIN,A9A 2A5,-62.9047,166.7596
+4,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Tyrese,TUV,A4A 4A6,-50.4024,78.3724
+5,Android,Samsumg,g17,18,Android,Cake,fr_CA,North Minniehaven,WSM,A1A 9A1,23.283,144.4243
+6,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Alhambra,BES,A7A 9A3,-89.7481,81.7105
+7,Android,Samsumg,g17,18,Android,Cake,fr_CA,East Andymouth,DMA,A7A 6A9,5.0753,89.1719
+8,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Michealfurt,IMN,A9A 7A4,-56.0973,-54.5144
+9,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Port Rileyview,MNG,A5A 4A1,15.0332,-104.6733
+10,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Arnebury,DNK,A8A 0A5,-73.536,174.0408
+11,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,West Dorcasstad,VGB,A7A 2A8,-8.5351,-174.2234
+12,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Fort Lizzietown,GIB,A6A 1A4,78.175,-158.1126
+13,Android,Samsumg,g17,18,Android,Cake,en_CA,Koleburgh,MMR,A1A 0A2,23.5462,-115.6243
+14,Android,Samsumg,g17,18,Android,Cake,fr_CA,South Bernadettefurt,SWZ,A5A 1A2,-71.0882,36.1775
+15,Webapp,Microsoft,Chrome,14,Windows,11,en_US,West Janick,BES,A8A 4A3,18.9476,-3.0242
+16,Android,Samsumg,g17,18,Android,Cake,fr_CA,Annettaberg,TKM,A6A 7A2,-72.2511,-158.7993
+17,Android,Samsumg,g17,18,Android,Cake,fr_CA,Guaynabo,ASM,A4A 1A6,34.646,163.6408
+18,Webapp,Microsoft,Chrome,14,Windows,11,en_US,East Icie,HKG,A1A 6A2,-43.834,-98.1994
+19,Android,Samsumg,g17,18,Android,Cake,en_CA,West Covina,BTN,A0A 7A8,-31.5189,-49.2468
+20,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Burbank,SXM,A2A 7A8,-6.5863,109.1684
+21,iOS,Apple,Iphone,13,iOS,16.1,en_US,Concepcionport,LUX,A1A 2A3,-61.1802,85.7498
+22,iOS,Apple,Iphone,13,iOS,16.1,en_US,Burbank,TUV,A2A 3A6,-83.8667,-23.6684
+23,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,West Riley,PRY,A7A 5A2,-53.428,-101.8129
+24,iOS,Apple,Iphone,13,iOS,16.1,en_US,Fort Savannatown,GTM,A4A 3A6,52.5563,24.6692
+25,Android,Samsumg,g17,18,Android,Cake,en_US,Santinachester,AND,A2A 2A7,0.815,147.6641
+26,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Murrayville,MNG,A3A 1A6,-85.7484,158.7599
+27,Webapp,Microsoft,Chrome,14,Windows,11,en_US,West Ottilieboro,NIU,A1A 0A9,-44.364,120.1374
+28,iOS,Apple,Iphone,13,iOS,16.1,en_US,Mckaylaport,OMN,A0A 9A0,13.8144,46.1731
+29,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Mohamedborough,UMI,A0A 4A5,14.5871,-63.8192
+30,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Bradleyshire,LBR,A3A 6A9,-78.7736,150.1502
+31,Android,Samsumg,g17,18,Android,Cake,en_CA,Dominicfort,CHN,A9A 3A8,-14.685,-78.7013
+32,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Fort Randal,ALA,A4A 4A4,43.7235,44.8501
+33,Android,Samsumg,g17,18,Android,Cake,fr_CA,New Noemie,ROU,A2A 7A6,-67.5403,123.8696
+34,Android,Samsumg,g17,18,Android,Cake,en_CA,Apple Valley,IDN,A7A 8A2,9.011,-173.8183
+35,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Croninside,SDN,A7A 3A2,71.9517,99.5584
+36,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Greenfelderburgh,SHN,A4A 6A3,36.2653,50.7157
+37,iOS,Apple,Iphone,13,iOS,16.1,en_CA,North Janelle,JAM,A3A 3A7,32.2394,84.4945
+38,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Dundalk,YEM,A1A 2A1,-5.0422,130.4963
+39,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Palm Coast,HUN,A3A 1A6,-37.8154,32.0436
+40,Android,Samsumg,g17,18,Android,Cake,en_CA,New Erwin,MOZ,A4A 0A6,-63.7225,-144.639
+41,Android,Samsumg,g17,18,Android,Cake,en_US,Cielostead,GIN,A7A 8A9,-89.8264,97.6501
+42,Android,Samsumg,g17,18,Android,Cake,en_US,Port Mercedes,NFK,A6A 2A5,-38.2349,-159.5464
+43,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Bednarburgh,AND,A9A 3A2,50.3097,39.0517
+44,Android,Samsumg,g17,18,Android,Cake,fr_CA,Rhiannonport,PLW,A9A 7A7,-34.7241,118.5417
+45,Android,Samsumg,g17,18,Android,Cake,fr_CA,Gloriastead,JEY,A8A 1A3,14.0838,-159.5547
+46,Android,Samsumg,g17,18,Android,Cake,fr_CA,East Isabella,TLS,A4A 0A5,-18.9287,-61.0816
+47,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Cassincester,GLP,A4A 1A7,83.5165,-100.3326
+48,Android,Samsumg,g17,18,Android,Cake,en_US,Wendellhaven,KOR,A0A 7A8,80.6329,-86.5915
+49,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Dunwoody,TCA,A2A 6A6,8.0812,-92.6854
+50,Webapp,Microsoft,Chrome,14,Windows,11,en_US,New Kyla,AIA,A6A 5A9,38.4886,-12.8115
+51,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,New Daphnestad,SAU,A0A 7A1,-54.7843,115.4775
+52,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Rutherfordfield,GHA,A3A 1A0,3.75,-32.7134
+53,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Oshkosh,IDN,A2A 0A9,-3.6854,-172.2527
+54,Android,Samsumg,g17,18,Android,Cake,en_US,DeKalb,SUR,A0A 8A3,75.805,150.4674
+55,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Samaraton,CZE,A1A 3A1,-80.428,97.1387
+56,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Gainesville,SLB,A9A 4A2,41.7178,97.5675
+57,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Wisozkworth,AGO,A1A 8A2,-46.421,-25.2413
+58,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Sterling Heights,WSM,A1A 7A5,15.0277,50.242
+59,iOS,Apple,Iphone,13,iOS,16.1,en_US,Tracy,ABW,A2A 0A0,84.886,32.4904
+60,iOS,Apple,Iphone,13,iOS,16.1,en_US,North Raina,GIN,A7A 0A1,33.9886,8.0028
+61,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Hammesview,ESH,A8A 3A6,-9.2078,-114.4861
+62,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,West Maeveworth,SGS,A3A 2A3,-32.2145,-163.4482
+63,iOS,Apple,Iphone,13,iOS,16.1,en_CA,West Ritahaven,DZA,A4A 8A7,33.656,148.9485
+64,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Fort Christbury,NAM,A5A 6A3,-24.1112,-162.2269
+65,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Town 'n' Country,KAZ,A8A 9A5,84.9449,-35.2329
+66,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Jacobihaven,EST,A6A 6A9,81.3494,12.1809
+67,iOS,Apple,Iphone,13,iOS,16.1,en_US,Elwinberg,TUV,A5A 0A7,-39.7938,-138.8022
+68,Android,Samsumg,g17,18,Android,Cake,en_CA,Pollichview,PAK,A1A 0A7,81.1785,159.3635
+69,iOS,Apple,Iphone,13,iOS,16.1,en_US,Thousand Oaks,MNG,A1A 0A4,-0.5986,-62.8587
+70,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Forestside,DZA,A5A 1A0,2.1813,119.5021
+71,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Fort Collins,GHA,A5A 1A7,-44.3696,-14.21
+72,Android,Samsumg,g17,18,Android,Cake,en_US,West Tess,VCT,A8A 4A8,-56.9709,57.7623
+73,Android,Samsumg,g17,18,Android,Cake,en_CA,Arecibo,CPV,A0A 4A6,-66.558,-145.2647
+74,iOS,Apple,Iphone,13,iOS,16.1,en_US,Clovis,GBR,A7A 4A1,37.8047,-169.2727
+75,iOS,Apple,Iphone,13,iOS,16.1,en_CA,West Keonburgh,CHN,A1A 3A1,9.3781,80.2865
+76,iOS,Apple,Iphone,13,iOS,16.1,en_US,Welchton,BGR,A4A 0A4,34.7391,64.5416
+77,Android,Samsumg,g17,18,Android,Cake,en_CA,New Jeradmouth,GEO,A2A 2A1,23.5681,133.1325
+78,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Port Melody,MDG,A1A 1A5,46.3512,-8.1658
+79,Webapp,Microsoft,Chrome,14,Windows,11,en_US,South Daniela,CCK,A4A 5A9,-78.7205,151.1579
+80,Android,Samsumg,g17,18,Android,Cake,fr_CA,Fort Kyrafurt,CYP,A3A 2A4,-87.6538,18.4384
+81,iOS,Apple,Iphone,13,iOS,16.1,en_US,Framihaven,COG,A6A 4A7,3.0426,34.5132
+82,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Port Sonnyboro,BHS,A8A 5A6,37.696,-168.4603
+83,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Little Rock,ESH,A3A 1A5,-0.0719,-169.61
+84,iOS,Apple,Iphone,13,iOS,16.1,en_CA,South Valley,SPM,A2A 7A5,-50.7305,-143.247
+85,iOS,Apple,Iphone,13,iOS,16.1,en_US,Alameda,SVN,A4A 3A3,-47.3575,-176.2432
+86,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Elianfort,TZA,A8A 3A3,75.1254,76.9581
+87,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Port Maynardmouth,TJK,A0A 4A2,76.629,22.6468
+88,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Alexandrefield,NAM,A0A 4A7,74.3326,0.1012
+89,Android,Samsumg,g17,18,Android,Cake,en_US,South Reannaberg,PRY,A4A 4A5,-61.7151,91.5447
+90,Android,Samsumg,g17,18,Android,Cake,fr_CA,North Noeliaborough,SVK,A8A 8A8,44.527,-115.6936
+91,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Greeley,VGB,A8A 5A5,-22.5559,-143.2577
+92,Android,Samsumg,g17,18,Android,Cake,en_CA,Sipeston,GNQ,A8A 8A8,-38.7137,-147.4884
+93,Android,Samsumg,g17,18,Android,Cake,en_US,North Alyshachester,KGZ,A1A 7A7,-4.2396,-97.3365
+94,Android,Samsumg,g17,18,Android,Cake,fr_CA,South Janelle,FRO,A1A 5A4,61.8545,-98.3635
+95,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Yuba City,FRO,A9A 3A2,-44.4291,-0.2468
+96,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Kayleebury,UZB,A8A 9A9,62.6833,-107.0909
+97,Android,Samsumg,g17,18,Android,Cake,fr_CA,Tremblaycester,CIV,A7A 9A3,16.7538,-5.8336
+98,Android,Samsumg,g17,18,Android,Cake,en_CA,Reillyhaven,LSO,A2A 3A5,39.709,-75.4789
+99,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Port Zariashire,LKA,A4A 7A8,77.4424,160.3412
+100,Android,Samsumg,g17,18,Android,Cake,en_US,Rasheedtown,HMD,A2A 2A9,-84.3459,-42.2201
+101,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Dickensfurt,ARG,A9A 7A7,-55.3557,11.8314
+102,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Eulastad,NCL,A2A 3A9,28.8018,-142.6289
+103,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Lake Saige,SJM,A9A 7A3,-60.5343,-92.3439
+104,iOS,Apple,Iphone,13,iOS,16.1,en_US,Virginiacester,ISL,A4A 3A3,29.885,136.2642
+105,Android,Samsumg,g17,18,Android,Cake,fr_CA,Killeen,DEU,A9A 8A7,53.4577,-113.8617
+106,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,New Clarahaven,GEO,A0A 8A1,-2.5764,-96.5022
+107,Webapp,Microsoft,Chrome,14,Windows,11,en_US,East Joelle,VGB,A1A 2A5,80.8679,-40.6417
+108,iOS,Apple,Iphone,13,iOS,16.1,en_US,St. Clair Shores,LCA,A2A 6A4,32.301,-10.3481
+109,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Spring,BES,A3A 5A3,78.1176,-45.5184
+110,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Lizzieborough,NIC,A5A 5A2,-83.8507,-153.1589
+111,Android,Samsumg,g17,18,Android,Cake,en_CA,New Ubaldostad,AFG,A6A 7A8,-77.4422,161.6849
+112,Android,Samsumg,g17,18,Android,Cake,en_CA,Stiedemannburgh,DEU,A5A 2A0,-3.6331,135.9309
+113,Android,Samsumg,g17,18,Android,Cake,en_US,South Kylashire,MLI,A8A 2A1,46.8575,-37.4046
+114,Android,Samsumg,g17,18,Android,Cake,en_US,Gusburgh,PLW,A7A 0A9,1.217,-11.1091
+115,Android,Samsumg,g17,18,Android,Cake,fr_CA,Hyattport,DJI,A9A 0A1,-65.7419,-15.6799
+116,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Cummingsstad,MLI,A2A 1A4,51.8454,-168.6367
+117,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Taylor,MYT,A7A 4A9,-47.8654,-73.5782
+118,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,West Gudrun,BTN,A3A 7A1,-36.757,156.2201
+119,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,South Edisonton,VCT,A1A 5A7,-31.9054,-0.0816
+120,iOS,Apple,Iphone,13,iOS,16.1,en_US,Kimborough,CXR,A6A 2A9,17.6289,58.1491
+121,Android,Samsumg,g17,18,Android,Cake,fr_CA,West Dovieberg,PYF,A5A 7A4,-41.8503,-131.869
+122,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Rogers,KOR,A9A 0A2,42.6239,-46.7245
+123,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,New Vallie,BHR,A1A 8A8,-45.0237,132.6473
+124,Android,Samsumg,g17,18,Android,Cake,en_US,Abestad,TKM,A9A 9A0,-9.5537,109.5748
+125,iOS,Apple,Iphone,13,iOS,16.1,en_US,Erinton,GMB,A0A 2A5,28.2009,19.5988
+126,Android,Samsumg,g17,18,Android,Cake,en_US,Goyettemouth,TUV,A9A 8A6,82.1609,-94.5647
+127,Android,Samsumg,g17,18,Android,Cake,en_CA,Huelcester,TJK,A4A 8A1,24.3286,2.3343
+128,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Douglaschester,AUS,A0A 1A7,-59.7979,37.7744
+129,Android,Samsumg,g17,18,Android,Cake,en_US,South Adela,NPL,A2A 3A6,26.341,-122.3254
+130,iOS,Apple,Iphone,13,iOS,16.1,en_US,Port Skyla,SRB,A4A 0A0,24.1538,81.5817
+131,Android,Samsumg,g17,18,Android,Cake,en_US,Lake Annabelleburgh,BHS,A7A 4A2,-34.4822,74.8509
+132,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Pacochashire,NZL,A4A 3A2,-46.0626,1.1261
+133,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Fort Geoport,GUF,A9A 0A8,-4.9508,-93.1457
+134,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Santaworth,PSE,A7A 1A5,-63.1653,-137.4148
+135,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Framingham,ZMB,A9A 3A4,-75.792,-124.2714
+136,Android,Samsumg,g17,18,Android,Cake,fr_CA,Feesttown,ERI,A0A 2A3,89.6539,-167.7157
+137,Android,Samsumg,g17,18,Android,Cake,en_US,Moreno Valley,MWI,A6A 0A4,-21.0727,45.4976
+138,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Fargo,FRO,A1A 7A4,-81.4883,-110.6771
+139,iOS,Apple,Iphone,13,iOS,16.1,en_US,East Joycebury,FJI,A0A 4A0,21.1643,-143.7032
+140,iOS,Apple,Iphone,13,iOS,16.1,en_US,Terryview,NIU,A1A 6A7,-69.8379,35.7083
+141,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Asheville,PHL,A0A 7A2,-1.7716,-178.3398
+142,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Lake Harry,PYF,A9A 2A2,-32.0715,174.7724
+143,Android,Samsumg,g17,18,Android,Cake,fr_CA,South Reed,MWI,A2A 6A8,-10.6271,-82.3375
+144,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Helmershire,YEM,A8A 1A1,-31.1729,10.6772
+145,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,South Paxtonhaven,FLK,A8A 0A0,-68.7978,-113.232
+146,Android,Samsumg,g17,18,Android,Cake,en_CA,Fort Carlo,REU,A0A 8A2,-22.9079,149.2166
+147,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Hackettside,NCL,A3A 1A7,-59.2402,61.9408
+148,Android,Samsumg,g17,18,Android,Cake,en_CA,West Dangeloshire,TKM,A0A 5A7,-47.0879,135.1943
+149,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Tavaresworth,POL,A4A 6A8,76.2247,-82.8906
+150,Android,Samsumg,g17,18,Android,Cake,en_CA,Whittier,GBR,A3A 0A5,-87.6891,90.5153
+151,Android,Samsumg,g17,18,Android,Cake,en_US,Yvonnemouth,SPM,A7A 1A5,-72.3766,-179.9876
+152,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Wylie,CAN,A8A 2A6,83.2146,-15.8443
+153,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,New Penelope,MMR,A9A 4A0,30.2352,40.0227
+154,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,West Bethcester,ZWE,A1A 4A1,-46.3699,-28.6303
+155,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Kozeycester,WLF,A3A 5A8,-34.8293,-36.2453
+156,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Jerdeborough,GLP,A4A 8A8,12.9782,66.7323
+157,iOS,Apple,Iphone,13,iOS,16.1,en_CA,North Alphonsoview,AUS,A0A 0A7,5.168,-39.7934
+158,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Mayaguez,SSD,A3A 8A2,-89.3666,-14.912
+159,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Fort Tyrellberg,UGA,A5A 3A6,78.6129,-83.5615
+160,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Samaratown,TTO,A2A 4A5,-14.4226,-28.0734
+161,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Port Javonboro,ALB,A8A 9A0,-36.2068,-95.0004
+162,Android,Samsumg,g17,18,Android,Cake,fr_CA,O'Connershire,ZAF,A3A 6A1,70.7235,-65.9717
+163,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Lake Elodyfield,SWZ,A2A 5A8,-77.6774,11.8731
+164,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Chanelcester,SWE,A8A 5A3,58.7125,25.1911
+165,Android,Samsumg,g17,18,Android,Cake,en_US,Keeblerbury,BLR,A4A 0A8,-26.2674,167.9154
+166,iOS,Apple,Iphone,13,iOS,16.1,en_US,East Llewellynstead,SLE,A9A 2A4,-29.8487,0.9677
+167,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Abdielview,AGO,A6A 0A5,-52.7764,159.3061
+168,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,South Amaniville,CAN,A8A 0A7,-19.6414,37.0142
+169,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,East Emmanuel,PYF,A1A 9A5,-72.6424,28.61
+170,iOS,Apple,Iphone,13,iOS,16.1,en_US,Lake Ervin,COD,A1A 6A2,50.4221,145.2322
+171,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Riverton,LVA,A0A 6A2,-81.2764,18.5443
+172,Android,Samsumg,g17,18,Android,Cake,fr_CA,Swaniawskistad,BRN,A6A 9A2,-88.3049,-174.7968
+173,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Zulauffort,KIR,A2A 0A0,-67.1005,125.2102
+174,Android,Samsumg,g17,18,Android,Cake,fr_CA,West Joyfort,IMN,A7A 9A6,-50.1741,98.9126
+175,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Lake Daisy,IOT,A6A 9A6,20.5015,-5.5517
+176,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Pflugerville,GNQ,A8A 5A0,-72.6779,-74.0724
+177,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Malloryborough,LTU,A8A 8A6,82.7237,-41.0402
+178,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Brockhaven,HRV,A7A 7A5,-8.6366,61.7055
+179,Android,Samsumg,g17,18,Android,Cake,fr_CA,Bahringerville,CZE,A6A 0A6,30.135,-50.4668
+180,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Beatricefurt,CMR,A4A 9A0,-56.0151,-101.8467
+181,Android,Samsumg,g17,18,Android,Cake,en_CA,Lake Hassan,DZA,A9A 5A9,-35.8606,97.0266
+182,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Hendersonville,MAF,A8A 5A4,56.2047,-123.2422
+183,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Quincy,SVN,A1A 3A4,-29.432,21.1955
+184,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Cutler Bay,BRB,A9A 9A7,39.5995,164.566
+185,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Rippinmouth,PRY,A7A 9A9,-60.0747,134.0162
+186,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,East Marisolstead,FJI,A5A 6A4,55.3124,127.8589
+187,Android,Samsumg,g17,18,Android,Cake,en_US,Port Leonardfurt,GGY,A2A 5A7,63.2959,98.1216
+188,Android,Samsumg,g17,18,Android,Cake,en_US,San Tan Valley,SVK,A4A 2A4,18.44,171.8245
+189,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Revere,AND,A2A 7A3,-79.6123,80.5309
+190,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Wandastead,BTN,A8A 5A7,-61.0733,-19.1037
+191,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Jettieborough,SXM,A9A 7A3,27.4297,3.9122
+192,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Nashhaven,GUF,A2A 1A2,-15.9049,52.0729
+193,iOS,Apple,Iphone,13,iOS,16.1,en_US,Parma,REU,A2A 1A0,59.9284,-29.8644
+194,iOS,Apple,Iphone,13,iOS,16.1,en_US,East Nicobury,RUS,A6A 1A7,-87.9738,53.4354
+195,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,East Cortneystead,BIH,A7A 1A2,-22.4534,-17.4495
+196,iOS,Apple,Iphone,13,iOS,16.1,en_US,Tigard,UMI,A2A 3A7,-84.635,-151.9486
+197,Android,Samsumg,g17,18,Android,Cake,fr_CA,Wilson,ATA,A5A 0A1,69.5421,-120.7083
+198,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Port Kelton,BDI,A3A 2A2,-73.4747,84.4798
+199,Webapp,Microsoft,Chrome,14,Windows,11,en_US,East Rosario,SYR,A0A 4A2,23.0909,145.9681
+200,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Pouroscester,BHR,A1A 7A1,-2.1779,112.8518
+201,Android,Samsumg,g17,18,Android,Cake,en_US,Cynthiastad,PAN,A4A 7A0,52.6265,0.6574
+202,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Monterey Park,PLW,A4A 3A3,-85.492,4.7589
+203,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Vernville,COD,A4A 1A7,38.6479,82.4476
+204,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Jacobsonfield,TUR,A4A 2A2,77.492,151.0002
+205,Android,Samsumg,g17,18,Android,Cake,en_CA,Rodriguezchester,BRA,A2A 9A2,-61.0443,162.0535
+206,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Port Alysson,UMI,A8A 7A1,-74.0524,7.7335
+207,Android,Samsumg,g17,18,Android,Cake,fr_CA,Kossfield,IRN,A9A 8A9,-9.5554,-20.1921
+208,iOS,Apple,Iphone,13,iOS,16.1,en_US,South Felipa,SSD,A1A 0A1,-13.8729,-6.7834
+209,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Croninville,TCD,A5A 7A7,10.5457,-140.2842
+210,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Kuhnstad,GNB,A2A 9A2,-82.7633,-97.4511
+211,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Weissnatborough,BES,A3A 5A4,-52.0462,138.1284
+212,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Fort Gabe,CYP,A5A 9A9,73.7994,148.5619
+213,iOS,Apple,Iphone,13,iOS,16.1,en_US,Marquardthaven,JOR,A8A 4A4,0.8638,75.5148
+214,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Fort Brannon,CXR,A8A 1A8,-40.1435,102.2927
+215,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Fort Bonitacester,MEX,A1A 7A0,-27.1193,82.211
+216,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,New Estrellastad,MAF,A8A 5A7,9.7604,30.6739
+217,iOS,Apple,Iphone,13,iOS,16.1,en_CA,New Jenningschester,SXM,A0A 4A1,48.8953,139.6842
+218,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Efrenchester,RUS,A1A 1A7,-4.9865,-136.0793
+219,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Cypress,HND,A7A 5A3,-18.9639,137.7262
+220,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Sammiemouth,CHL,A0A 2A0,20.0954,-125.1658
+221,iOS,Apple,Iphone,13,iOS,16.1,en_US,Tacoma,LIE,A2A 9A4,-62.6584,160.3801
+222,Android,Samsumg,g17,18,Android,Cake,fr_CA,Emardberg,DOM,A4A 3A6,4.3191,-124.8064
+223,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Gainesville,SYC,A5A 6A6,2.7478,10.1404
+224,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Joeymouth,KIR,A5A 2A1,8.0808,73.7267
+225,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Michealport,CUB,A5A 4A8,-44.5673,59.715
+226,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Anselside,AFG,A9A 6A8,31.9327,-83.5994
+227,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Canton,KIR,A6A 8A1,-17.8269,18.0554
+228,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Jewelborough,CXR,A3A 8A2,-4.8403,161.1706
+229,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Roobfort,PAK,A6A 0A0,-69.8382,71.3029
+230,Android,Samsumg,g17,18,Android,Cake,en_CA,New Leonebury,ATG,A4A 9A3,-76.9486,-40.1959
+231,Android,Samsumg,g17,18,Android,Cake,fr_CA,Godfreytown,ESH,A2A 2A0,9.4703,-90.2
+232,iOS,Apple,Iphone,13,iOS,16.1,en_US,Dickensfield,AUS,A9A 7A6,-82.7563,-17.1907
+233,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,South Amayaland,PCN,A9A 3A1,-70.709,98.3107
+234,Android,Samsumg,g17,18,Android,Cake,en_US,Towneton,VEN,A2A 5A5,70.3939,41.6874
+235,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Estel,VGB,A6A 7A5,61.0708,25.2516
+236,Android,Samsumg,g17,18,Android,Cake,en_US,East Laurynchester,TLS,A6A 5A0,52.8225,-127.8965
+237,Android,Samsumg,g17,18,Android,Cake,en_US,Fort Worth,CXR,A5A 3A2,-83.8194,-96.3971
+238,Android,Samsumg,g17,18,Android,Cake,fr_CA,South Lourdes,SLB,A7A 6A1,29.1708,-53.4476
+239,Android,Samsumg,g17,18,Android,Cake,en_US,New Maryamborough,CRI,A5A 9A3,57.9993,-110.235
+240,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,North Britneyton,VUT,A1A 0A0,-15.6237,-155.3089
+241,Android,Samsumg,g17,18,Android,Cake,fr_CA,Katharinaview,ITA,A9A 9A5,32.3609,59.6093
+242,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Arloburgh,BRB,A4A 3A8,-74.6199,144.0275
+243,Android,Samsumg,g17,18,Android,Cake,fr_CA,North Genesis,NRU,A8A 7A6,-50.4098,10.4525
+244,Android,Samsumg,g17,18,Android,Cake,en_US,Jacobsonshire,IRN,A5A 2A6,24.6046,-2.5095
+245,Android,Samsumg,g17,18,Android,Cake,en_US,Andreanneside,VUT,A1A 3A8,-15.3492,-115.7914
+246,Android,Samsumg,g17,18,Android,Cake,fr_CA,Blaine,FRA,A0A 1A1,22.8428,108.955
+247,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Fort Elvie,EST,A5A 3A5,68.7064,93.7044
+248,Android,Samsumg,g17,18,Android,Cake,en_CA,Balistreristead,TKL,A7A 7A2,-14.9587,-14.0375
+249,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Koelpinberg,WSM,A5A 2A8,-16.8153,-8.9995
+250,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Ninastad,FLK,A4A 9A1,-43.8628,99.6481
+251,Android,Samsumg,g17,18,Android,Cake,en_CA,Revere,JEY,A2A 6A5,-59.177,-52.3621
+252,Android,Samsumg,g17,18,Android,Cake,en_US,Rancho Cucamonga,SSD,A2A 1A0,40.7575,-37.3151
+253,Android,Samsumg,g17,18,Android,Cake,en_CA,Monroe,JEY,A8A 1A6,-46.5131,-55.8248
+254,iOS,Apple,Iphone,13,iOS,16.1,en_US,North Darrell,ABW,A1A 7A5,-3.3573,-72.5264
+255,iOS,Apple,Iphone,13,iOS,16.1,en_US,Goldnerfort,PRY,A3A 8A5,-60.2221,132.5674
+256,Android,Samsumg,g17,18,Android,Cake,fr_CA,New Sabryna,TON,A5A 4A4,-85.0212,136.6773
+257,iOS,Apple,Iphone,13,iOS,16.1,en_US,Montgomery,LBN,A4A 8A1,34.8974,0.8434
+258,Android,Samsumg,g17,18,Android,Cake,en_US,Erinworth,VNM,A8A 0A6,-25.0151,-67.6422
+259,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Alafaya,THA,A4A 4A3,-37.3121,129.0011
+260,Android,Samsumg,g17,18,Android,Cake,fr_CA,Jailyntown,SOM,A9A 4A2,-54.4113,-113.61
+261,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Bryan,LUX,A6A 2A4,66.9707,108.5416
+262,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,East Franco,KEN,A1A 0A9,-61.3746,-173.5595
+263,iOS,Apple,Iphone,13,iOS,16.1,en_US,Hilllland,SJM,A7A 3A7,-0.7284,10.4361
+264,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Camden,AIA,A9A 6A8,63.888,-113.854
+265,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,New Rachelshire,NOR,A4A 0A0,22.7922,-132.4339
+266,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Swiftborough,HRV,A2A 3A3,-64.9018,-21.118
+267,iOS,Apple,Iphone,13,iOS,16.1,en_US,Langworthcester,SYR,A2A 0A1,-0.4835,-124.2411
+268,iOS,Apple,Iphone,13,iOS,16.1,en_US,New Dariana,NRU,A5A 0A6,-68.6033,-17.2382
+269,Android,Samsumg,g17,18,Android,Cake,en_US,Port Emiliano,EST,A0A 4A4,-29.6317,-60.7314
+270,Android,Samsumg,g17,18,Android,Cake,en_US,South Isobelfurt,BWA,A0A 6A8,44.8075,-170.0931
+271,Android,Samsumg,g17,18,Android,Cake,fr_CA,East Cristobalfurt,COM,A3A 0A9,6.6935,-124.2145
+272,Android,Samsumg,g17,18,Android,Cake,fr_CA,Portland,DNK,A6A 0A9,-65.5277,-134.0658
+273,Webapp,Microsoft,Chrome,14,Windows,11,en_US,South Peyton,ISL,A1A 5A8,-28.8854,-53.9537
+274,Android,Samsumg,g17,18,Android,Cake,fr_CA,Houston,BRA,A3A 2A4,43.6819,14.8293
+275,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Emmetstead,HRV,A1A 2A8,-53.7302,-58.5437
+276,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Port Oral,NZL,A6A 9A7,69.2158,77.0716
+277,Android,Samsumg,g17,18,Android,Cake,en_US,Amyaport,CCK,A4A 5A4,32.5799,-15.7307
+278,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Hattiehaven,KOR,A8A 3A8,-9.8745,44.8681
+279,iOS,Apple,Iphone,13,iOS,16.1,en_US,Lakeland,LBR,A5A 0A7,-35.3007,-102.7812
+280,Webapp,Microsoft,Chrome,14,Windows,11,en_US,South Rebamouth,TKM,A7A 9A2,-45.7302,65.3948
+281,Android,Samsumg,g17,18,Android,Cake,fr_CA,Spinkatown,MDA,A4A 9A9,17.9452,-177.6696
+282,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Batzburgh,CZE,A9A 3A0,-41.0531,-67.7367
+283,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Eulaliaside,UZB,A2A 1A6,69.4064,-77.1273
+284,iOS,Apple,Iphone,13,iOS,16.1,en_CA,New Fredrickborough,VNM,A7A 5A6,-0.6466,-127.2196
+285,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,East Mason,ESH,A2A 1A0,-45.7089,162.0181
+286,Android,Samsumg,g17,18,Android,Cake,en_CA,South Dylan,IRQ,A8A 0A6,61.2137,-71.0493
+287,iOS,Apple,Iphone,13,iOS,16.1,en_US,Waltonboro,GRD,A8A 9A4,-29.5475,52.1722
+288,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Robertofield,LVA,A4A 7A1,-55.0196,132.831
+289,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,North Edwardo,IRQ,A9A 0A2,-79.2263,-112.2877
+290,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Julietside,IND,A7A 2A9,14.4061,131.9543
+291,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Neha,ATA,A7A 0A5,22.0144,-77.5554
+292,Android,Samsumg,g17,18,Android,Cake,en_CA,South Vern,POL,A9A 6A2,19.7383,-86.8555
+293,Android,Samsumg,g17,18,Android,Cake,fr_CA,Alexzanderstad,VNM,A0A 3A9,20.6005,-113.3838
+294,Android,Samsumg,g17,18,Android,Cake,en_US,Port Yoshikofort,MUS,A8A 0A7,47.417,-83.8398
+295,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,South Leanna,BFA,A5A 8A1,71.1147,19.0649
+296,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Dallas,BIH,A4A 7A1,82.6006,4.002
+297,Android,Samsumg,g17,18,Android,Cake,en_CA,West Lueville,FSM,A5A 6A7,-72.7827,125.4188
+298,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Port Darrin,LAO,A2A 2A9,59.9793,8.4622
+299,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Port Kraig,HTI,A8A 6A7,-10.0924,162.0366
+300,Android,Samsumg,g17,18,Android,Cake,en_CA,Fort Rainaside,SJM,A5A 5A6,1.0299,79.6099
+301,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Lake Vernon,PHL,A0A 1A0,-80.8844,130.4
+302,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Battle Creek,NER,A5A 3A7,-27.3469,-108.6212
+303,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Langoshville,IOT,A2A 2A2,24.0491,72.1801
+304,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Worcester,UMI,A2A 5A6,-33.3851,-160.1898
+305,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Rochester Hills,YEM,A6A 6A0,32.8446,26.8607
+306,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Yundtbury,SMR,A4A 3A0,65.6755,74.6817
+307,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Beavercreek,BES,A0A 0A0,65.899,-54.0126
+308,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Gutkowskistead,BLM,A7A 9A5,45.9283,-5.443
+309,Android,Samsumg,g17,18,Android,Cake,en_CA,Missouri City,MAC,A3A 1A2,77.1142,-161.7558
+310,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Gislasoncester,GIN,A3A 4A3,-70.206,-113.1287
+311,Android,Samsumg,g17,18,Android,Cake,en_US,Hutchinson,SEN,A0A 0A7,-34.9372,99.281
+312,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Joliefield,CYP,A2A 2A3,5.1048,16.7412
+313,Webapp,Microsoft,Chrome,14,Windows,11,en_US,North Jerroldton,GMB,A8A 6A5,-66.5253,44.9174
+314,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Yostfield,ALB,A9A 3A0,59.5081,143.4944
+315,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Tyresehaven,NFK,A4A 6A0,85.96,65.5482
+316,Android,Samsumg,g17,18,Android,Cake,en_CA,West Walkerburgh,SPM,A0A 2A2,-31.8231,-168.131
+317,Android,Samsumg,g17,18,Android,Cake,en_CA,Manteca,HKG,A4A 1A6,-70.6087,-138.3205
+318,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,South Elinorefield,IRQ,A4A 6A0,62.8274,145.9333
+319,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Balistrerimouth,ARM,A0A 1A3,-42.7539,-105.1292
+320,iOS,Apple,Iphone,13,iOS,16.1,en_US,Nikolaushaven,COK,A6A 2A2,-32.3356,23.6981
+321,iOS,Apple,Iphone,13,iOS,16.1,en_US,Port Santinobury,GRL,A1A 3A5,31.34,28.8537
+322,iOS,Apple,Iphone,13,iOS,16.1,en_US,Marcfield,KAZ,A0A 7A7,-44.3648,80.8497
+323,iOS,Apple,Iphone,13,iOS,16.1,en_US,Hammond,HTI,A2A 7A4,26.2641,-97.4295
+324,iOS,Apple,Iphone,13,iOS,16.1,en_US,Fort Mathew,FJI,A2A 1A6,-65.4043,88.5723
+325,Webapp,Microsoft,Chrome,14,Windows,11,en_US,East Wilfrid,ALB,A8A 1A8,-81.773,-140.1458
+326,iOS,Apple,Iphone,13,iOS,16.1,en_US,Fort Irvingfurt,MEX,A5A 2A6,-56.9216,118.1519
+327,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Klockotown,TJK,A6A 8A6,-67.9284,49.9019
+328,Android,Samsumg,g17,18,Android,Cake,en_US,East Flossieside,ATF,A1A 9A4,20.2201,56.0113
+329,Android,Samsumg,g17,18,Android,Cake,en_CA,Maidaland,GUF,A9A 0A5,68.8137,71.3735
+330,Android,Samsumg,g17,18,Android,Cake,en_US,East Cordia,MCO,A1A 0A5,-32.1523,11.7807
+331,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Zanderland,BHR,A0A 8A6,-57.4092,-46.2849
+332,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,East Anahifort,RWA,A6A 1A3,11.7324,-110.8779
+333,Android,Samsumg,g17,18,Android,Cake,fr_CA,Murazikport,ARM,A5A 9A3,-89.9394,-115.7658
+334,Android,Samsumg,g17,18,Android,Cake,en_US,Trevahaven,TCA,A2A 0A4,-47.0688,85.8064
+335,iOS,Apple,Iphone,13,iOS,16.1,en_US,New Tatumbury,ETH,A9A 4A6,-68.9663,179.2101
+336,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Lake Bessie,MCO,A2A 4A4,-89.2552,-170.4519
+337,iOS,Apple,Iphone,13,iOS,16.1,en_CA,South Guidocester,TUN,A5A 3A4,-39.2066,-68.0465
+338,iOS,Apple,Iphone,13,iOS,16.1,en_US,East Lizzie,RWA,A1A 1A0,-58.5712,149.9135
+339,Android,Samsumg,g17,18,Android,Cake,fr_CA,Santa Rosa,COL,A1A 3A3,13.3754,-130.0293
+340,iOS,Apple,Iphone,13,iOS,16.1,en_US,Darroncester,SXM,A2A 0A1,31.9718,-72.7336
+341,iOS,Apple,Iphone,13,iOS,16.1,en_US,Durwardmouth,MMR,A6A 4A6,3.7378,-43.0514
+342,Android,Samsumg,g17,18,Android,Cake,en_CA,Lake Alva,BRN,A3A 3A5,-58.0622,174.3761
+343,iOS,Apple,Iphone,13,iOS,16.1,en_CA,East Ansel,PRI,A6A 3A7,4.6076,38.133
+344,iOS,Apple,Iphone,13,iOS,16.1,en_US,New Gussie,VIR,A2A 7A4,27.7533,60.3911
+345,Android,Samsumg,g17,18,Android,Cake,en_US,Evanston,DNK,A9A 5A0,-67.0249,-39.3328
+346,Android,Samsumg,g17,18,Android,Cake,en_CA,Cranston,SLE,A5A 1A2,-50.0103,153.6631
+347,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,South Margarett,MEX,A7A 1A4,24.1879,-111.0849
+348,Android,Samsumg,g17,18,Android,Cake,en_US,Kalamazoo,MDV,A4A 9A6,-27.0872,17.4856
+349,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Aileenworth,SXM,A4A 7A6,39.347,-126.9176
+350,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Henryburgh,ITA,A9A 4A2,53.9311,114.7039
+351,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Augustusborough,VEN,A9A 5A3,-68.0606,55.9789
+352,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Lake Ofeliastad,LBY,A8A 0A2,21.7165,-57.0115
+353,Android,Samsumg,g17,18,Android,Cake,fr_CA,Kuvalisland,SPM,A2A 3A2,-69.2359,-112.1647
+354,Android,Samsumg,g17,18,Android,Cake,fr_CA,Krystalville,SYC,A4A 6A2,82.7923,174.0188
+355,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Hettieburgh,AUT,A9A 3A7,23.8243,-143.7904
+356,Android,Samsumg,g17,18,Android,Cake,fr_CA,West Chauncey,ISL,A7A 8A6,35.0154,127.7117
+357,Webapp,Microsoft,Chrome,14,Windows,11,en_US,North Eleanorestead,CZE,A2A 2A0,-19.6656,77.6891
+358,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Havenville,KNA,A4A 0A9,59.0228,176.4627
+359,iOS,Apple,Iphone,13,iOS,16.1,en_US,Martineside,NPL,A5A 8A8,-11.5972,-171.5519
+360,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,South Amiya,AND,A2A 5A5,-74.5204,-128.0322
+361,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Port Kenyattacester,ATA,A2A 2A6,16.3173,55.5532
+362,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,North Wendy,ABW,A7A 5A2,-49.8999,33.3436
+363,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Boscoton,TLS,A9A 0A5,67.7694,166.9975
+364,Android,Samsumg,g17,18,Android,Cake,fr_CA,Fort Carmela,SUR,A7A 6A7,65.5959,80.4873
+365,Android,Samsumg,g17,18,Android,Cake,en_US,Katarinafield,TLS,A7A 7A4,-27.8714,148.8433
+366,iOS,Apple,Iphone,13,iOS,16.1,en_CA,West Albin,BWA,A2A 7A4,52.7686,-167.8222
+367,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Aliatown,ATA,A9A 6A3,48.6561,-56.8984
+368,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Rempelview,IMN,A1A 6A9,25.2121,-134.4802
+369,Android,Samsumg,g17,18,Android,Cake,fr_CA,Flatleyfield,PAN,A3A 7A7,-79.1191,-126.3144
+370,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Fort Ezekieltown,NGA,A3A 8A5,31.5108,163.3435
+371,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Earleneshire,PLW,A1A 3A3,87.7879,170.5178
+372,Android,Samsumg,g17,18,Android,Cake,en_US,Lake Delbert,AGO,A4A 5A3,-49.7486,72.3766
+373,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,North Cadenstead,GLP,A5A 5A9,-58.4719,86.5731
+374,Android,Samsumg,g17,18,Android,Cake,fr_CA,Pagacstad,ETH,A4A 6A6,4.0674,123.3248
+375,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Chapel Hill,KNA,A2A 9A3,-36.3735,94.2943
+376,iOS,Apple,Iphone,13,iOS,16.1,en_US,South Arjun,LKA,A6A 5A5,71.4258,137.6366
+377,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Johnsonstad,DEU,A4A 7A8,67.1617,170.297
+378,iOS,Apple,Iphone,13,iOS,16.1,en_US,Ponce,SOM,A6A 0A3,-41.2855,117.08
+379,Android,Samsumg,g17,18,Android,Cake,en_US,Reicherttown,LAO,A3A 2A2,54.2781,84.1557
+380,Android,Samsumg,g17,18,Android,Cake,fr_CA,Gorczanymouth,COG,A3A 4A1,-79.4341,165.1907
+381,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Port Georgiana,SWE,A5A 8A5,40.2286,-98.5128
+382,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Schneiderville,UZB,A4A 0A0,23.6183,105.46
+383,Android,Samsumg,g17,18,Android,Cake,en_CA,New Caryport,VIR,A3A 4A4,-72.2812,104.9451
+384,Android,Samsumg,g17,18,Android,Cake,fr_CA,Leannonberg,HND,A8A 4A4,-54.7608,54.7439
+385,Android,Samsumg,g17,18,Android,Cake,en_CA,Port Addisonland,IRQ,A4A 1A8,-38.667,-162.2886
+386,Android,Samsumg,g17,18,Android,Cake,fr_CA,East Lonieworth,WLF,A7A 9A4,-23.7395,-165.707
+387,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Olsonfurt,CRI,A2A 4A9,40.3026,166.3281
+388,Android,Samsumg,g17,18,Android,Cake,en_US,Schaeferburgh,BHR,A0A 9A8,47.248,122.7846
+389,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Downey,LBN,A6A 0A9,89.5622,-18.9767
+390,Webapp,Microsoft,Chrome,14,Windows,11,en_US,East Eugenia,NOR,A6A 2A7,1.7711,-65.3666
+391,Android,Samsumg,g17,18,Android,Cake,en_US,Aronfurt,MDA,A0A 6A5,44.053,-19.9528
+392,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Fort Charley,VAT,A9A 5A3,-73.5019,74.8068
+393,iOS,Apple,Iphone,13,iOS,16.1,en_US,Robbieton,GTM,A8A 9A7,84.9265,-20.6578
+394,Android,Samsumg,g17,18,Android,Cake,en_US,Lake Carmen,GRC,A3A 8A3,-75.7126,121.129
+395,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,South Joshuah,IND,A2A 9A0,-62.6641,32.8937
+396,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Minot,BRA,A8A 3A7,20.7377,31.379
+397,Android,Samsumg,g17,18,Android,Cake,fr_CA,Ellacester,PNG,A5A 2A6,-74.3986,144.4379
+398,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Palm Springs,CIV,A7A 5A2,-42.5105,-52.8082
+399,Webapp,Microsoft,Chrome,14,Windows,11,en_US,New Jimmyborough,SDN,A2A 0A5,13.5428,87.2835
+400,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,New Sanfordberg,IOT,A4A 3A0,-2.1085,-91.0296
+401,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Jaunitastead,MLT,A7A 6A0,-35.102,101.1738
+402,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,South Nicolette,LCA,A1A 8A7,37.76,-4.9144
+403,iOS,Apple,Iphone,13,iOS,16.1,en_CA,North Norwood,NRU,A7A 0A9,-28.3869,-179.5215
+404,Android,Samsumg,g17,18,Android,Cake,en_CA,East Hartford,OMN,A4A 6A4,-18.8219,-0.8594
+405,Android,Samsumg,g17,18,Android,Cake,fr_CA,West Isidro,HMD,A2A 5A2,19.5714,-8.4928
+406,Android,Samsumg,g17,18,Android,Cake,fr_CA,Reggiestead,LAO,A0A 0A5,28.6663,79.9461
+407,Android,Samsumg,g17,18,Android,Cake,en_CA,Ephraimberg,GEO,A0A 5A5,-36.1048,136.0104
+408,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Simonisboro,IRQ,A7A 8A1,-17.4482,-173.7668
+409,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Mayaguez,MOZ,A0A 7A2,-2.5099,-88.7295
+410,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Moorestead,BIH,A0A 8A4,9.8897,155.4884
+411,iOS,Apple,Iphone,13,iOS,16.1,en_US,Quinnview,CYP,A1A 2A6,75.5324,-156.4526
+412,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Darlenemouth,LAO,A5A 8A6,62.0465,154.0615
+413,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Walshborough,ARE,A3A 0A8,39.6283,-128.854
+414,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Wendellland,ITA,A7A 9A6,-30.1055,65.5382
+415,Android,Samsumg,g17,18,Android,Cake,fr_CA,West Kyraboro,TZA,A2A 6A7,68.8734,-21.2336
+416,Webapp,Microsoft,Chrome,14,Windows,11,en_US,New Tyra,BFA,A5A 6A5,-36.1164,-135.0279
+417,Android,Samsumg,g17,18,Android,Cake,en_CA,Mateoberg,BHR,A3A 7A2,-87.8089,-45.1995
+418,Android,Samsumg,g17,18,Android,Cake,en_US,South Effieside,ALB,A8A 3A2,-11.9291,-159.4544
+419,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Alvenachester,NZL,A5A 3A8,56.5399,-9.1985
+420,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Theodora,TJK,A7A 5A5,-41.9881,-142.8518
+421,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Veumtown,FRA,A7A 6A8,-36.6968,-87.2819
+422,Android,Samsumg,g17,18,Android,Cake,en_CA,Fort Alysa,NFK,A9A 6A7,-36.6851,-127.5921
+423,iOS,Apple,Iphone,13,iOS,16.1,en_US,Kolbyboro,ZMB,A9A 1A3,21.5228,-38.6468
+424,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Titobury,MYS,A1A 0A2,47.2004,8.4689
+425,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Legrosshire,OMN,A9A 6A8,28.7,122.906
+426,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,North Arnoldo,SVK,A1A 2A6,18.1391,130.1933
+427,Android,Samsumg,g17,18,Android,Cake,en_US,East Yvetteworth,SLV,A5A 5A3,41.2301,141.2095
+428,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Port Rachael,NPL,A2A 4A0,51.3889,-102.8599
+429,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Dayanaworth,CAF,A6A 1A8,34.9022,-76.1013
+430,iOS,Apple,Iphone,13,iOS,16.1,en_US,Lake Sarahstead,FRO,A5A 6A7,77.0237,-19.5499
+431,Android,Samsumg,g17,18,Android,Cake,fr_CA,Lake Berneicefield,TGO,A3A 5A2,-24.0625,-169.0428
+432,Android,Samsumg,g17,18,Android,Cake,fr_CA,Camylleville,BGD,A8A 5A8,-15.7057,-155.9908
+433,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Garland,BOL,A0A 8A4,31.6575,122.672
+434,Android,Samsumg,g17,18,Android,Cake,fr_CA,Chattanooga,GBR,A2A 0A6,2.28,-145.569
+435,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Eugeniaton,VCT,A0A 4A9,32.941,-167.9998
+436,Android,Samsumg,g17,18,Android,Cake,en_CA,Emelychester,IRQ,A9A 0A2,-56.981,161.2759
+437,iOS,Apple,Iphone,13,iOS,16.1,en_US,North Esperanzaport,LBR,A7A 5A4,45.866,-19.7916
+438,iOS,Apple,Iphone,13,iOS,16.1,en_US,Cheektowaga,IRQ,A6A 8A6,-3.1851,-178.1608
+439,Android,Samsumg,g17,18,Android,Cake,en_CA,Aracelystead,LTU,A6A 4A7,-72.5949,-91.3808
+440,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Davisfurt,MCO,A3A 3A0,66.1977,-146.338
+441,Android,Samsumg,g17,18,Android,Cake,fr_CA,Yasmineworth,PSE,A9A 8A7,35.6554,-51.8602
+442,Android,Samsumg,g17,18,Android,Cake,fr_CA,Maggiefield,PRT,A3A 1A7,-54.7366,-13.349
+443,Webapp,Microsoft,Chrome,14,Windows,11,en_US,East Lafayettetown,LUX,A3A 7A2,-80.8753,-112.2215
+444,iOS,Apple,Iphone,13,iOS,16.1,en_US,Pontiac,HKG,A9A 4A8,32.0081,-171.0806
+445,iOS,Apple,Iphone,13,iOS,16.1,en_CA,New Haven,BRN,A7A 2A7,29.0801,38.6941
+446,iOS,Apple,Iphone,13,iOS,16.1,en_US,Fort Krismouth,PHL,A6A 2A4,55.9324,-172.3276
+447,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,East Antonietta,LBN,A7A 4A2,77.8962,113.3841
+448,Android,Samsumg,g17,18,Android,Cake,fr_CA,Heloisebury,ALA,A6A 2A2,-88.57,132.3405
+449,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Runolfssonton,DOM,A5A 0A2,-0.0016,-144.2173
+450,Android,Samsumg,g17,18,Android,Cake,en_CA,Hacienda Heights,MSR,A0A 1A5,51.7102,-7.0919
+451,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Marciastead,GGY,A8A 3A3,-5.54,-33.0665
+452,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Edgarton,REU,A3A 2A9,-47.9525,-116.2037
+453,Android,Samsumg,g17,18,Android,Cake,en_CA,Boganstad,CPV,A3A 6A9,-3.8633,26.1205
+454,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Koreyborough,SGP,A4A 5A4,-23.5069,-52.9268
+455,iOS,Apple,Iphone,13,iOS,16.1,en_US,Schusterfield,LBR,A3A 9A2,87.6318,-173.7258
+456,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Sauercester,AUT,A8A 4A2,12.079,-174.965
+457,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Margretbury,EST,A7A 7A8,6.2369,-17.5681
+458,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Wheaton,HRV,A5A 2A3,-82.6794,-14.8157
+459,Webapp,Microsoft,Chrome,14,Windows,11,en_US,New Ethanborough,TKM,A0A 5A2,18.8576,23.6036
+460,Android,Samsumg,g17,18,Android,Cake,fr_CA,Port Tyree,KOR,A5A 1A8,50.4898,92.5795
+461,Android,Samsumg,g17,18,Android,Cake,fr_CA,Heidiside,ERI,A7A 2A5,-26.8035,140.1248
+462,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Port Arianna,SSD,A3A 6A3,32.3616,126.7468
+463,iOS,Apple,Iphone,13,iOS,16.1,en_US,McLaughlinfort,AND,A9A 4A0,-24.8218,-109.9166
+464,Android,Samsumg,g17,18,Android,Cake,en_CA,Marvinton,SYC,A2A 0A0,64.4817,37.1493
+465,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,West Robbview,GUY,A1A 0A7,-46.9102,-117.1672
+466,Android,Samsumg,g17,18,Android,Cake,fr_CA,Carletonworth,MMR,A5A 1A9,-88.5609,27.2518
+467,iOS,Apple,Iphone,13,iOS,16.1,en_CA,East Fletaland,NFK,A3A 7A6,16.3523,-58.0957
+468,iOS,Apple,Iphone,13,iOS,16.1,en_US,Rexport,CMR,A4A 0A2,59.5132,-146.2228
+469,Android,Samsumg,g17,18,Android,Cake,en_CA,South Sydneyhaven,KAZ,A3A 2A2,41.7179,68.5162
+470,iOS,Apple,Iphone,13,iOS,16.1,en_CA,South Kristofer,VAT,A1A 2A0,47.4465,122.7259
+471,Android,Samsumg,g17,18,Android,Cake,en_CA,New Anika,SRB,A2A 8A5,-69.4375,-81.3448
+472,Android,Samsumg,g17,18,Android,Cake,en_US,New Donavon,ISR,A6A 5A6,-75.4768,27.6597
+473,iOS,Apple,Iphone,13,iOS,16.1,en_US,Fort Nyahfield,AGO,A3A 9A4,-67.4161,151.4057
+474,Android,Samsumg,g17,18,Android,Cake,fr_CA,East Fayborough,BES,A3A 5A9,-81.731,-52.9496
+475,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Ferminworth,BMU,A0A 0A5,17.8883,108.2517
+476,Android,Samsumg,g17,18,Android,Cake,en_CA,New Dahlia,CUW,A6A 4A9,-16.4282,143.8261
+477,Android,Samsumg,g17,18,Android,Cake,en_US,South Crawford,GRL,A3A 1A6,-24.4239,-160.2143
+478,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Nolanchester,MUS,A9A 3A9,-60.5848,110.0477
+479,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Nedrafield,SXM,A9A 6A8,-17.3679,-29.16
+480,iOS,Apple,Iphone,13,iOS,16.1,en_US,Cierrahaven,BEN,A4A 0A2,9.9023,-134.1806
+481,Android,Samsumg,g17,18,Android,Cake,en_CA,Adamsland,GNQ,A9A 8A9,-17.9895,-162.6035
+482,Android,Samsumg,g17,18,Android,Cake,en_CA,Jacobsonstead,TTO,A2A 1A4,76.9478,-41.431
+483,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,West Helmerworth,DOM,A6A 4A7,58.7999,-106.0788
+484,Android,Samsumg,g17,18,Android,Cake,en_US,Minaborough,LIE,A8A 6A8,22.2498,-64.8342
+485,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Hermannhaven,BLR,A9A 6A9,-43.2358,9.8074
+486,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Idaho Falls,BRA,A2A 5A8,24.8827,-72.274
+487,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,South Chaimtown,PAN,A3A 1A1,-37.0567,-25.6908
+488,iOS,Apple,Iphone,13,iOS,16.1,en_US,Port Taliacester,NZL,A6A 5A2,63.6429,127.4922
+489,iOS,Apple,Iphone,13,iOS,16.1,en_CA,West Natchester,CAN,A6A 0A1,-85.513,88.9486
+490,Android,Samsumg,g17,18,Android,Cake,en_CA,South Vincenzohaven,NRU,A3A 2A8,-21.1617,64.4306
+491,Android,Samsumg,g17,18,Android,Cake,en_CA,Jaskolskibury,LIE,A9A 3A8,-50.5865,59.3306
+492,Android,Samsumg,g17,18,Android,Cake,en_CA,Lake Larry,GRC,A4A 4A3,-36.3857,42.8458
+493,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Jordonburgh,TZA,A9A 2A0,49.2002,153.8986
+494,Webapp,Microsoft,Chrome,14,Windows,11,en_US,West Leonieside,CMR,A4A 8A7,-80.739,160.7547
+495,Android,Samsumg,g17,18,Android,Cake,fr_CA,MacGyverfield,NAM,A0A 8A5,18.7094,120.6672
+496,Webapp,Microsoft,Chrome,14,Windows,11,en_US,East Thaliachester,NER,A1A 6A4,-66.7369,-121.8899
+497,iOS,Apple,Iphone,13,iOS,16.1,en_US,Glen Burnie,VCT,A5A 9A7,-13.9167,-175.1281
+498,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Port Madisynborough,HRV,A5A 3A5,-45.0892,-76.0394
+499,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,New Estelle,MYS,A3A 2A5,-34.8369,-44.7531
+500,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Port Clarabelle,TTO,A5A 6A0,-75.1198,37.9368
+501,Android,Samsumg,g17,18,Android,Cake,en_US,Hanetown,AUS,A0A 0A3,83.2521,147.5042
+502,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,North Sandra,CZE,A3A 4A6,43.5186,141.6049
+503,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Torpstad,SYR,A7A 0A9,-67.6067,49.4852
+504,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Lorineville,PHL,A8A 8A3,-57.2698,-109.092
+505,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Estell,GRD,A2A 6A1,57.0875,-123.2015
+506,Android,Samsumg,g17,18,Android,Cake,en_CA,Claudiaboro,GNQ,A5A 8A0,-75.0974,104.7112
+507,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Damianport,YEM,A6A 7A9,-32.3313,26.692
+508,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Satterfieldcester,LBY,A5A 8A7,-42.8226,53.1603
+509,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Ahmedfield,TWN,A5A 2A2,54.6568,126.5236
+510,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Eulashire,FIN,A4A 9A4,21.07,32.1044
+511,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Goodyear,ESP,A5A 1A4,83.1727,-159.7633
+512,iOS,Apple,Iphone,13,iOS,16.1,en_US,Hermannland,PAN,A1A 6A1,-40.8751,-46.5336
+513,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Galveston,HMD,A7A 0A3,-10.5886,-41.169
+514,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Port Cyril,FLK,A9A 9A5,-17.6898,-168.2289
+515,Android,Samsumg,g17,18,Android,Cake,en_US,Lake Katlynn,PYF,A5A 2A8,34.9414,-155.2023
+516,Android,Samsumg,g17,18,Android,Cake,en_US,Natashacester,BRA,A2A 4A6,-83.0092,169.5056
+517,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Christiansenstad,SDN,A2A 1A5,-61.4718,86.0052
+518,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Flagstaff,CIV,A7A 9A0,56.4563,-89.3628
+519,Android,Samsumg,g17,18,Android,Cake,fr_CA,Lake Rosatown,CYP,A9A 8A0,-69.5565,60.7038
+520,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lemkefurt,ECU,A6A 7A4,79.0551,-154.8134
+521,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,New Myrtle,ITA,A5A 9A7,71.8621,117.1166
+522,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Brycenfield,MKD,A7A 3A3,-35.0058,-156.927
+523,Android,Samsumg,g17,18,Android,Cake,en_US,Norbertoberg,LBN,A2A 5A1,67.0064,142.2669
+524,iOS,Apple,Iphone,13,iOS,16.1,en_US,Lubowitzstead,KGZ,A0A 6A3,-4.5228,37.1083
+525,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Alfredstad,DNK,A3A 0A6,-31.0408,68.2775
+526,Android,Samsumg,g17,18,Android,Cake,fr_CA,Lefflerhaven,MWI,A7A 5A5,28.4552,107.8532
+527,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Toyfield,GRL,A0A 2A5,49.0867,24.7384
+528,Android,Samsumg,g17,18,Android,Cake,en_CA,Skyecester,ESP,A6A 2A5,43.7247,-7.5211
+529,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Port Ignacio,BMU,A1A 8A6,-14.2858,-53.1089
+530,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Margaritahaven,LCA,A4A 1A4,-1.0292,128.9945
+531,iOS,Apple,Iphone,13,iOS,16.1,en_CA,South Paulaville,CUB,A2A 5A7,-80.1629,-46.1406
+532,Android,Samsumg,g17,18,Android,Cake,en_US,St. Petersburg,AGO,A9A 0A2,-57.2721,48.9016
+533,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,North Orpha,NER,A7A 7A8,-27.7203,51.3927
+534,Android,Samsumg,g17,18,Android,Cake,fr_CA,Tomasworth,SVK,A0A 0A4,12.2924,31.286
+535,Webapp,Microsoft,Chrome,14,Windows,11,en_US,North Lafayettestad,SAU,A0A 6A4,-27.9473,26.5237
+536,Android,Samsumg,g17,18,Android,Cake,fr_CA,Severn,FSM,A7A 4A2,5.4873,-152.4519
+537,iOS,Apple,Iphone,13,iOS,16.1,en_US,Kuhlmanberg,SMR,A0A 6A5,20.3006,127.2716
+538,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Vallieview,GUM,A5A 3A1,81.6506,-175.3903
+539,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Kielton,PAK,A9A 1A4,-53.1871,-22.1535
+540,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Catalinaburgh,MAR,A1A 9A3,-31.0617,46.7936
+541,Android,Samsumg,g17,18,Android,Cake,en_CA,Chasityfurt,KGZ,A6A 3A2,-74.8273,18.1504
+542,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,South Julianacester,GRC,A9A 3A4,56.9811,-146.2266
+543,iOS,Apple,Iphone,13,iOS,16.1,en_CA,West Ephraim,BTN,A5A 4A5,37.6454,-132.2757
+544,iOS,Apple,Iphone,13,iOS,16.1,en_US,Rippinworth,AFG,A2A 3A2,89.5345,-83.7915
+545,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Adamberg,FJI,A1A 6A2,-87.761,160.3273
+546,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Lake Daniellatown,LBR,A0A 3A4,21.8316,22.8138
+547,Android,Samsumg,g17,18,Android,Cake,fr_CA,West Augustineborough,MDG,A3A 5A4,-70.4315,-57.7623
+548,iOS,Apple,Iphone,13,iOS,16.1,en_US,North Antoinetteworth,LBY,A6A 9A4,61.0431,130.5272
+549,Android,Samsumg,g17,18,Android,Cake,en_US,Arnaldobury,NER,A9A 6A1,55.8709,142.2349
+550,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Altadena,SGS,A3A 1A6,7.7939,-94.3477
+551,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Padbergview,MOZ,A4A 0A8,84.9672,-159.316
+552,Android,Samsumg,g17,18,Android,Cake,en_US,Schmidtfort,MEX,A8A 7A5,-67.566,2.544
+553,iOS,Apple,Iphone,13,iOS,16.1,en_US,Cierrafield,BGD,A2A 1A1,-59.4683,-40.9151
+554,Android,Samsumg,g17,18,Android,Cake,en_CA,Port Hershelstead,USA,A7A 2A5,-23.5094,-6.0698
+555,Android,Samsumg,g17,18,Android,Cake,en_CA,East Kassandraton,SPM,A8A 0A6,-39.9663,-100.9617
+556,Android,Samsumg,g17,18,Android,Cake,en_US,Fort Irma,QAT,A4A 5A3,14.9765,20.9265
+557,Android,Samsumg,g17,18,Android,Cake,en_CA,Fort Antonio,PLW,A5A 4A8,-89.8319,-54.5131
+558,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Fort Arvilla,ROU,A3A 4A2,30.7786,93.4013
+559,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Keshawnstead,UZB,A0A 3A0,82.856,110.8692
+560,Android,Samsumg,g17,18,Android,Cake,fr_CA,Jacksonville,MAF,A3A 7A0,-1.844,-127.5393
+561,Android,Samsumg,g17,18,Android,Cake,fr_CA,South Rogersburgh,AIA,A4A 7A2,65.0657,-96.684
+562,Android,Samsumg,g17,18,Android,Cake,en_CA,Antelope,IND,A0A 8A9,-19.1919,-172.9948
+563,iOS,Apple,Iphone,13,iOS,16.1,en_US,New Lornafort,PNG,A6A 9A5,8.8249,-132.1076
+564,Android,Samsumg,g17,18,Android,Cake,fr_CA,East Benjaminbury,BGD,A8A 5A3,-69.3013,-77.0625
+565,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Port Kayachester,COK,A5A 8A5,71.8261,-2.3185
+566,iOS,Apple,Iphone,13,iOS,16.1,en_US,Madelinechester,CIV,A4A 3A0,-0.9589,-41.2841
+567,iOS,Apple,Iphone,13,iOS,16.1,en_US,Tomasabury,IRQ,A2A 2A9,27.7375,34.9707
+568,Android,Samsumg,g17,18,Android,Cake,en_US,Danville,PNG,A3A 9A4,-21.3674,-145.5738
+569,Android,Samsumg,g17,18,Android,Cake,en_CA,North Jonathan,HND,A2A 2A8,64.044,-32.0823
+570,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Lake Kole,TJK,A5A 4A8,-3.0184,8.2669
+571,Android,Samsumg,g17,18,Android,Cake,fr_CA,Paulaworth,ATA,A6A 4A2,41.2632,-139.7444
+572,Android,Samsumg,g17,18,Android,Cake,en_US,Nikitamouth,GRC,A1A 8A6,-70.5385,-1.2205
+573,Webapp,Microsoft,Chrome,14,Windows,11,en_US,South Travonfield,SEN,A7A 8A5,-77.632,-40.0404
+574,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Port Velvashire,IOT,A5A 6A8,19.1222,107.7475
+575,iOS,Apple,Iphone,13,iOS,16.1,en_US,Alessandraport,LIE,A9A 0A1,37.533,121.8419
+576,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Carlsbad,BDI,A7A 4A4,-66.9595,-13.5674
+577,Android,Samsumg,g17,18,Android,Cake,en_US,West Enoch,ARG,A0A 9A9,45.078,45.3817
+578,Android,Samsumg,g17,18,Android,Cake,en_CA,Port Elna,IOT,A6A 4A8,69.8301,-38.0382
+579,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,East Irma,BIH,A9A 4A5,70.6387,-34.7855
+580,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,North Christelle,BFA,A3A 6A6,11.5853,68.9005
+581,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Lake Havasu City,TUR,A9A 7A3,-25.5616,105.7043
+582,Android,Samsumg,g17,18,Android,Cake,en_CA,South Katheryn,VCT,A8A 4A2,21.9669,-43.1239
+583,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,West Hillary,SYR,A1A 3A4,0.7097,-69.9197
+584,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Fort Shaniyacester,GUM,A7A 5A2,35.379,72.3384
+585,Android,Samsumg,g17,18,Android,Cake,fr_CA,New Sistermouth,ATF,A5A 1A8,-3.46,52.0483
+586,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Fort Catharine,GUM,A9A 0A8,-87.9745,64.0697
+587,iOS,Apple,Iphone,13,iOS,16.1,en_CA,North Cooperside,CUW,A9A 0A8,53.058,-159.4791
+588,iOS,Apple,Iphone,13,iOS,16.1,en_US,Jackytown,USA,A3A 1A6,5.7341,-118.4673
+589,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Tianastead,LTU,A7A 5A8,41.1058,4.2877
+590,Android,Samsumg,g17,18,Android,Cake,fr_CA,New Hiltonstad,CHE,A8A 2A0,-9.5426,73.421
+591,Android,Samsumg,g17,18,Android,Cake,en_US,West Fannie,SJM,A9A 5A8,68.7007,-18.8958
+592,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Virginia Beach,ASM,A9A 3A1,-61.4959,173.326
+593,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,South Mose,HRV,A9A 8A8,73.4434,99.9283
+594,Webapp,Microsoft,Chrome,14,Windows,11,en_US,East Myrtleberg,SVN,A7A 8A5,39.6995,68.0913
+595,Android,Samsumg,g17,18,Android,Cake,en_US,Port Dorcasburgh,CIV,A6A 5A6,56.4011,-120.1358
+596,Android,Samsumg,g17,18,Android,Cake,fr_CA,Carmeloton,AUS,A7A 9A0,-28.3022,76.1625
+597,Android,Samsumg,g17,18,Android,Cake,en_US,Francescohaven,LSO,A5A 7A5,-27.526,-80.2159
+598,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Myles,GRD,A1A 3A7,13.7066,105.3955
+599,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Bolingbrook,KAZ,A3A 1A8,-17.0894,-169.5868
+600,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Quitzonborough,FRO,A7A 0A4,58.3691,-95.0996
+601,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Port Malliefurt,PRI,A3A 9A3,4.3118,-113.0155
+602,Webapp,Microsoft,Chrome,14,Windows,11,en_US,North Alberthaworth,ATA,A8A 5A3,-85.9524,-132.8531
+603,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Lake Aubreeworth,AFG,A3A 6A2,66.7108,-107.3432
+604,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Lubowitzborough,GUM,A5A 4A0,-78.0515,32.973
+605,Android,Samsumg,g17,18,Android,Cake,en_US,Fort Estella,MDG,A2A 6A7,-21.3899,80.3501
+606,Android,Samsumg,g17,18,Android,Cake,en_US,North Bernieceboro,ETH,A0A 1A8,31.4621,77.286
+607,Android,Samsumg,g17,18,Android,Cake,en_US,North Gersonfield,FSM,A5A 8A4,0.0379,-147.55
+608,Android,Samsumg,g17,18,Android,Cake,en_US,Bodeworth,NAM,A9A 3A4,10.855,136.0011
+609,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Broomfield,MAR,A7A 3A3,19.1196,110.7811
+610,Android,Samsumg,g17,18,Android,Cake,en_US,West Savanahworth,VEN,A3A 6A0,33.1888,101.6748
+611,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Downey,SGS,A3A 2A3,10.1069,-40.033
+612,Android,Samsumg,g17,18,Android,Cake,en_US,South Julietbury,AIA,A1A 7A3,-45.7566,-137.346
+613,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Blaine,ERI,A2A 8A6,19.2121,52.4904
+614,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Hattiesburg,MUS,A4A 9A0,-63.5993,-84.3311
+615,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Fort Hallehaven,LAO,A0A 0A8,3.4558,-7.2401
+616,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Homenickhaven,CHL,A1A 6A6,-18.8568,-74.5704
+617,Android,Samsumg,g17,18,Android,Cake,en_CA,Kirlinchester,BTN,A7A 4A7,-63.8125,-90.6853
+618,Android,Samsumg,g17,18,Android,Cake,en_CA,Boganfurt,UZB,A7A 9A4,-74.1767,-12.6646
+619,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Wyoming,CPV,A6A 6A8,-10.2392,-125.2264
+620,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Fort Deannaboro,CZE,A7A 7A0,36.9093,22.9598
+621,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Alvisborough,TUN,A6A 8A7,-89.0752,33.738
+622,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Lake Paoloport,PAN,A0A 8A8,9.7137,-92.8896
+623,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Port Sophie,CRI,A7A 1A9,-78.9039,-116.0422
+624,iOS,Apple,Iphone,13,iOS,16.1,en_US,Lake Joaquinmouth,BWA,A9A 5A2,-62.5872,167.7555
+625,Webapp,Microsoft,Chrome,14,Windows,11,en_US,New Darianaport,WLF,A3A 7A7,-88.4049,-148.491
+626,Android,Samsumg,g17,18,Android,Cake,en_CA,Port Elsa,SDN,A7A 3A4,-89.2421,-119.954
+627,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Ramonview,SGS,A2A 9A0,-69.2627,-149.9065
+628,Android,Samsumg,g17,18,Android,Cake,fr_CA,Hoegerchester,REU,A2A 3A5,-75.3019,123.8451
+629,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Veronaville,NRU,A2A 8A8,17.0327,175.3916
+630,iOS,Apple,Iphone,13,iOS,16.1,en_CA,North Fidel,DZA,A9A 0A7,88.6393,22.3382
+631,Webapp,Microsoft,Chrome,14,Windows,11,en_US,O'Konfield,HUN,A2A 0A6,47.6449,18.7333
+632,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Ziemeboro,GRD,A0A 6A2,-18.3838,-166.8605
+633,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,South Cassandra,MDG,A4A 8A7,50.7662,-33.1302
+634,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,East Reggie,SEN,A4A 1A9,-18.0756,20.7184
+635,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,New Sandrinetown,TTO,A3A 2A5,41.2885,-110.6195
+636,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Bothell,COM,A0A 8A1,-68.5911,109.9151
+637,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Tyrelberg,TLS,A7A 6A6,-69.5391,100.1293
+638,Android,Samsumg,g17,18,Android,Cake,en_US,North Erikfort,TKM,A3A 0A2,-40.5579,-48.818
+639,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Fort Anastacio,QAT,A1A 4A6,-39.4271,98.4628
+640,Android,Samsumg,g17,18,Android,Cake,en_US,Oberbrunnerville,MLT,A6A 5A5,-67.3359,-8.4538
+641,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Lake Rahsaan,NFK,A1A 6A2,52.0526,28.5048
+642,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Tampa,OMN,A7A 9A7,-74.2573,-47.3316
+643,iOS,Apple,Iphone,13,iOS,16.1,en_CA,North Leannetown,MAR,A4A 0A0,40.5248,-46.3308
+644,iOS,Apple,Iphone,13,iOS,16.1,en_US,Isaiview,ARM,A9A 8A7,75.3016,-61.7533
+645,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Quincy,BEL,A5A 2A4,69.8769,128.8818
+646,iOS,Apple,Iphone,13,iOS,16.1,en_CA,New Lambertville,PER,A6A 5A1,-18.8064,173.3225
+647,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Thielstead,IND,A0A 6A9,-74.6611,-65.9816
+648,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Anitatown,VCT,A4A 2A6,53.5175,121.3626
+649,Android,Samsumg,g17,18,Android,Cake,en_CA,Schowalterstad,IRN,A5A 9A3,76.6316,-95.8675
+650,Android,Samsumg,g17,18,Android,Cake,en_US,Tracy,HKG,A3A 8A7,68.7624,25.0448
+651,Webapp,Microsoft,Chrome,14,Windows,11,en_US,North Drew,TON,A1A 8A5,29.9441,-63.2766
+652,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Port Mariastead,OMN,A3A 0A3,-1.7006,178.5485
+653,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Carolyn,CUB,A9A 6A0,-82.3691,-172.9693
+654,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,New Lolitastead,EST,A6A 9A0,23.0825,-47.6161
+655,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Lancaster,COM,A8A 8A5,-63.7171,-87.1104
+656,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Carmichael,GUY,A4A 1A2,1.306,55.1218
+657,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Shirley,IRN,A6A 9A7,-11.179,7.0455
+658,Android,Samsumg,g17,18,Android,Cake,fr_CA,Albertshire,ZMB,A2A 0A7,74.9066,-162.1735
+659,Android,Samsumg,g17,18,Android,Cake,en_CA,Memphis,GLP,A1A 4A8,82.3463,53.8116
+660,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Port Zion,MHL,A6A 5A1,25.7581,-41.9723
+661,iOS,Apple,Iphone,13,iOS,16.1,en_US,Jamisonbury,PAN,A8A 8A7,-54.9364,-173.0505
+662,Android,Samsumg,g17,18,Android,Cake,en_US,South Mireya,CYM,A5A 3A8,-65.3551,47.984
+663,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Gleichnerhaven,AIA,A2A 6A9,-78.7976,-33.4153
+664,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Fort Vladimirbury,AND,A7A 5A5,-71.1647,57.9094
+665,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Nikolausburgh,AGO,A8A 8A3,24.4967,-157.0622
+666,iOS,Apple,Iphone,13,iOS,16.1,en_US,Mission,TTO,A9A 9A6,55.2001,148.3387
+667,Android,Samsumg,g17,18,Android,Cake,en_US,Schustertown,TKL,A8A 7A1,-27.1998,-119.5439
+668,Android,Samsumg,g17,18,Android,Cake,en_US,White Plains,SEN,A3A 2A7,-0.1663,-26.5756
+669,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Sashastead,BRN,A7A 8A2,41.0132,59.593
+670,Android,Samsumg,g17,18,Android,Cake,en_US,Binscester,TWN,A0A 1A3,67.2179,166.692
+671,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Port Herbert,SAU,A6A 5A6,4.3735,26.9306
+672,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Breitenbergburgh,SYC,A8A 3A4,43.076,102.9076
+673,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Fort Corneliusstead,SEN,A6A 1A7,-13.5085,-55.9586
+674,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,West Cassie,OMN,A6A 8A4,32.2318,-20.8482
+675,iOS,Apple,Iphone,13,iOS,16.1,en_CA,New Ray,QAT,A9A 6A5,27.4122,-88.708
+676,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Wadechester,SMR,A7A 7A2,85.9623,-37.6546
+677,Android,Samsumg,g17,18,Android,Cake,en_CA,Leathaside,ATG,A0A 9A2,-23.1125,-64.7473
+678,Webapp,Microsoft,Chrome,14,Windows,11,en_US,New Velva,SHN,A0A 1A8,73.5894,164.3899
+679,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Decatur,BGD,A4A 3A0,87.8961,-12.1178
+680,Android,Samsumg,g17,18,Android,Cake,en_US,Port Polly,TUV,A4A 9A7,-62.5204,6.3907
+681,Android,Samsumg,g17,18,Android,Cake,fr_CA,North Julianne,CAN,A1A 7A2,48.5575,-79.2234
+682,Android,Samsumg,g17,18,Android,Cake,en_CA,Fort Aric,CAN,A3A 4A9,-39.9785,-80.4258
+683,Android,Samsumg,g17,18,Android,Cake,fr_CA,Fort Augustus,CAF,A5A 3A3,-56.1281,-81.0322
+684,iOS,Apple,Iphone,13,iOS,16.1,en_US,Fort Sisterfurt,SMR,A2A 4A3,89.3717,-77.0604
+685,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Jochester,SWZ,A7A 4A8,-66.811,29.6021
+686,Android,Samsumg,g17,18,Android,Cake,en_US,West Mollyshire,MWI,A8A 8A7,-1.5584,-157.0369
+687,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Tavaresport,SYC,A8A 8A9,70.0708,28.9722
+688,Webapp,Microsoft,Chrome,14,Windows,11,en_US,McLaughlinshire,MYS,A6A 4A1,3.4336,-145.6007
+689,Android,Samsumg,g17,18,Android,Cake,fr_CA,Fort Leonardo,ABW,A1A 5A7,-31.7883,110.0284
+690,Android,Samsumg,g17,18,Android,Cake,en_US,East Catalina,MHL,A6A 4A0,77.0412,70.5504
+691,iOS,Apple,Iphone,13,iOS,16.1,en_US,Howellborough,UGA,A3A 3A6,81.3417,31.0482
+692,iOS,Apple,Iphone,13,iOS,16.1,en_US,Ashburn,NER,A2A 3A6,0.1426,-31.6866
+693,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Riverview,IRL,A1A 2A1,57.7781,-93.9833
+694,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,East Delilah,GEO,A8A 9A1,-71.8681,-33.0329
+695,Android,Samsumg,g17,18,Android,Cake,fr_CA,East Andrewland,ATF,A1A 0A5,59.4789,81.3888
+696,Android,Samsumg,g17,18,Android,Cake,en_CA,Pleasanton,ATA,A7A 7A3,9.2274,-30.7418
+697,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Barneyview,CUB,A4A 9A2,-53.7325,-132.2335
+698,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Murphymouth,CZE,A8A 4A6,27.9407,-11.2551
+699,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Fort Serenaville,SGS,A4A 6A5,-2.2925,-145.1988
+700,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Lake Paolo,PYF,A3A 5A0,-64.0441,111.6335
+701,Android,Samsumg,g17,18,Android,Cake,en_CA,Fernehaven,EGY,A2A 0A2,59.7191,18.3353
+702,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Fort Hollieberg,MHL,A3A 8A8,11.6639,-143.218
+703,Android,Samsumg,g17,18,Android,Cake,fr_CA,Fort Jordyn,MNP,A2A 0A5,-66.2031,-53.3819
+704,Android,Samsumg,g17,18,Android,Cake,en_US,Fort Clement,LAO,A0A 6A4,-42.2557,156.9029
+705,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Danielletown,NIU,A3A 8A3,-23.6917,100.4907
+706,iOS,Apple,Iphone,13,iOS,16.1,en_US,Lake Leonel,NAM,A1A 7A1,13.2443,-13.1546
+707,iOS,Apple,Iphone,13,iOS,16.1,en_US,Rosemead,FLK,A7A 4A0,27.5432,-155.5434
+708,iOS,Apple,Iphone,13,iOS,16.1,en_US,Port Ryannfurt,FSM,A0A 6A5,-36.2089,139.7398
+709,Android,Samsumg,g17,18,Android,Cake,en_US,Brookline,NFK,A0A 4A8,71.1801,-56.2998
+710,Android,Samsumg,g17,18,Android,Cake,en_CA,Baumbachmouth,PRI,A7A 0A3,-24.144,16.4403
+711,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Sidshire,STP,A8A 7A6,-16.23,-85.1769
+712,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,East Rachelleborough,VUT,A7A 6A8,88.3308,-145.6008
+713,iOS,Apple,Iphone,13,iOS,16.1,en_US,Kutchborough,MSR,A5A 4A6,-30.8966,-72.4103
+714,Android,Samsumg,g17,18,Android,Cake,en_CA,West Devinland,SVK,A2A 2A1,-41.2604,95.9478
+715,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Lake Ramiro,SWZ,A5A 9A0,88.3388,-173.8088
+716,Android,Samsumg,g17,18,Android,Cake,fr_CA,Myraburgh,SAU,A6A 6A1,3.997,125.4232
+717,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Fort Krystelton,SVK,A7A 1A0,30.1052,41.2582
+718,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Juneport,ATF,A9A 7A5,-87.8891,81.1211
+719,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Shawnastead,KOR,A7A 6A0,-53.567,140.9121
+720,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Lawrenceview,LAO,A0A 4A7,79.5587,94.5176
+721,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Yorba Linda,HKG,A7A 5A4,42.3797,-46.5448
+722,Android,Samsumg,g17,18,Android,Cake,fr_CA,Ameliahaven,COG,A5A 2A5,85.2149,145.1317
+723,Android,Samsumg,g17,18,Android,Cake,en_US,Port Iketon,COG,A5A 0A1,8.2283,-9.812
+724,iOS,Apple,Iphone,13,iOS,16.1,en_CA,East Franciscatown,CUB,A5A 8A3,46.5261,5.3274
+725,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Shanelletown,GTM,A5A 0A3,-14.1879,-107.7353
+726,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Jenkinschester,MLI,A4A 8A5,-79.5465,-76.3897
+727,Android,Samsumg,g17,18,Android,Cake,en_US,South Clinton,ATG,A9A 0A1,-86.1389,-153.762
+728,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Eau Claire,BHR,A4A 3A6,59.5028,169.1874
+729,Webapp,Microsoft,Chrome,14,Windows,11,en_US,South Amari,PSE,A8A 4A0,-44.0347,-84.3771
+730,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Scranton,NLD,A9A 0A4,-73.8956,53.9786
+731,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Constanceborough,THA,A0A 2A0,40.3375,122.3994
+732,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Ratkefield,USA,A5A 2A6,51.237,-54.2529
+733,Android,Samsumg,g17,18,Android,Cake,en_US,Reillytown,GUF,A6A 9A8,66.149,172.1641
+734,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Estelle,PSE,A2A 7A9,74.4906,169.5121
+735,iOS,Apple,Iphone,13,iOS,16.1,en_US,Steubertown,GUF,A6A 3A5,49.7437,-155.8402
+736,Android,Samsumg,g17,18,Android,Cake,fr_CA,Country Club,AND,A6A 7A6,45.016,143.5371
+737,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Redwood City,NLD,A8A 8A1,13.7543,114.6368
+738,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Lynchside,MRT,A8A 2A5,69.8742,41.9791
+739,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Harleycester,SYC,A6A 7A8,25.139,-128.2004
+740,Android,Samsumg,g17,18,Android,Cake,fr_CA,Lake Elisha,NPL,A6A 1A2,41.3503,-93.1753
+741,Android,Samsumg,g17,18,Android,Cake,en_CA,Tonawanda,KWT,A3A 8A8,-82.4905,-14.6805
+742,iOS,Apple,Iphone,13,iOS,16.1,en_US,New Haven,DMA,A5A 7A4,42.8817,8.725
+743,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Fort Zandertown,GUF,A9A 7A4,28.1547,-55.0545
+744,Android,Samsumg,g17,18,Android,Cake,en_US,East Tobytown,IRN,A6A 9A5,57.1603,-26.8507
+745,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Drakefield,TLS,A9A 0A3,-84.1375,95.4771
+746,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Angeloborough,KIR,A6A 7A8,57.6621,-154.5332
+747,Android,Samsumg,g17,18,Android,Cake,en_US,Enriqueville,SPM,A2A 6A5,17.7483,-116.9206
+748,Android,Samsumg,g17,18,Android,Cake,fr_CA,Waelchistad,SAU,A9A 7A8,80.1487,-96.0782
+749,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Bettyeville,BHR,A4A 8A1,82.8501,-3.091
+750,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Leta,AUT,A6A 6A1,-59.9882,-108.6895
+751,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lake Keaton,LBY,A1A 6A3,-27.5323,-146.1314
+752,Android,Samsumg,g17,18,Android,Cake,fr_CA,Ovaview,UMI,A4A 2A3,-9.3963,169.368
+753,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Ondrickafield,PCN,A6A 2A4,71.8978,169.4882
+754,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Davie,DJI,A8A 0A1,-66.7832,-78.7709
+755,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Indianapolis,VCT,A0A 2A4,-62.451,-173.4732
+756,Android,Samsumg,g17,18,Android,Cake,en_CA,Reynaview,IOT,A1A 9A4,85.1599,45.8913
+757,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Alvinahaven,STP,A3A 1A7,-65.5105,-101.9013
+758,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Jaredport,ABW,A0A 8A9,23.0288,146.5989
+759,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,West Nestorstead,MNG,A5A 1A7,-37.005,31.5339
+760,Android,Samsumg,g17,18,Android,Cake,en_US,Quintonburgh,NPL,A8A 8A1,10.7467,-129.3502
+761,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Enoshaven,ARE,A8A 7A5,50.6762,-118.3065
+762,Android,Samsumg,g17,18,Android,Cake,en_CA,New Emoryborough,FRA,A6A 5A0,1.1025,23.1533
+763,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Morarstead,SOM,A8A 0A2,1.5391,-6.362
+764,Android,Samsumg,g17,18,Android,Cake,en_CA,Breitenbergstead,GAB,A5A 3A1,59.0189,-159.9767
+765,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Jordystead,CUW,A6A 6A4,-42.5029,-116.3024
+766,Android,Samsumg,g17,18,Android,Cake,en_CA,North Rosie,ZAF,A4A 8A5,-10.4729,-10.6861
+767,iOS,Apple,Iphone,13,iOS,16.1,en_US,Lake Thealand,VNM,A0A 9A6,40.4749,-52.0281
+768,iOS,Apple,Iphone,13,iOS,16.1,en_US,North Kade,BRA,A1A 7A3,19.8797,-49.5199
+769,Webapp,Microsoft,Chrome,14,Windows,11,en_US,East Carmellamouth,ECU,A4A 0A5,3.5937,131.9962
+770,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Gregorioville,VGB,A7A 4A7,-60.9579,-58.1846
+771,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Fort Pearl,AGO,A5A 7A3,21.9288,56.5339
+772,iOS,Apple,Iphone,13,iOS,16.1,en_US,South Margaritafurt,LKA,A4A 3A7,76.4166,130.297
+773,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Mansfield,LIE,A3A 0A0,87.2696,112.3557
+774,Android,Samsumg,g17,18,Android,Cake,fr_CA,South Trinity,KAZ,A9A 1A5,5.6957,28.217
+775,Android,Samsumg,g17,18,Android,Cake,en_CA,South Brielleborough,PLW,A2A 6A2,-28.3125,-72.6568
+776,Webapp,Microsoft,Chrome,14,Windows,11,en_US,South Garry,AUS,A1A 2A9,-58.4517,56.2912
+777,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Feeneyfort,JAM,A8A 4A7,-47.6614,-171.8953
+778,Android,Samsumg,g17,18,Android,Cake,en_US,North Carolina,ROU,A3A 6A1,54.0654,144.4941
+779,Android,Samsumg,g17,18,Android,Cake,fr_CA,New Khalidtown,ISR,A0A 5A4,44.4236,-161.4938
+780,iOS,Apple,Iphone,13,iOS,16.1,en_US,Gorczanychester,MOZ,A7A 2A7,-44.0428,-9.685
+781,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Port Phyllisburgh,BHS,A1A 8A1,-30.1911,-128.9447
+782,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Chino,AUT,A9A 9A4,-17.0613,-123.2904
+783,Android,Samsumg,g17,18,Android,Cake,en_CA,Lake Eleazar,GAB,A5A 6A2,-62.3945,67.4401
+784,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,McGlynnside,TCD,A2A 2A7,-86.0505,68.0399
+785,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Dalefort,SMR,A8A 3A8,-32.2134,97.0589
+786,Android,Samsumg,g17,18,Android,Cake,en_CA,Fort Amelyborough,SVN,A5A 6A9,30.6776,-4.1612
+787,Android,Samsumg,g17,18,Android,Cake,en_US,Fond du Lac,GRD,A5A 0A5,33.9131,-4.7266
+788,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Glen Burnie,SYC,A6A 1A8,83.9546,-81.0272
+789,Android,Samsumg,g17,18,Android,Cake,fr_CA,Taylorsville,MCO,A7A 6A2,23.5076,-143.9819
+790,Android,Samsumg,g17,18,Android,Cake,en_US,New Rochelle,EGY,A5A 2A3,-21.7278,38.0011
+791,Android,Samsumg,g17,18,Android,Cake,fr_CA,Gerlachstad,VCT,A5A 4A8,-59.0975,23.7813
+792,iOS,Apple,Iphone,13,iOS,16.1,en_US,Franeckistad,BOL,A8A 7A2,-15.0067,130.34
+793,iOS,Apple,Iphone,13,iOS,16.1,en_US,Lake Rosario,ERI,A1A 8A7,56.7961,121.3734
+794,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Leuschketown,SEN,A0A 2A4,-52.2101,49.2192
+795,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,South Margret,LVA,A2A 3A9,-5.5515,-128.1569
+796,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Olsonview,SLE,A1A 3A7,-12.7971,-23.1108
+797,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Lehnerchester,UZB,A8A 6A4,53.8803,-69.8166
+798,Android,Samsumg,g17,18,Android,Cake,fr_CA,New Judd,WLF,A0A 1A8,3.8956,41.8442
+799,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,East Meta,IRL,A1A 5A0,-42.9527,90.3901
+800,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Jettiemouth,SJM,A3A 1A8,68.1474,97.6627
+801,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Lake Doylemouth,ITA,A2A 3A9,-58.0592,48.0681
+802,iOS,Apple,Iphone,13,iOS,16.1,en_US,Baytown,BLZ,A5A 6A7,-10.1122,80.1594
+803,Webapp,Microsoft,Chrome,14,Windows,11,en_US,North Berniececester,FSM,A9A 5A5,54.066,24.1618
+804,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,South Estefaniashire,IDN,A9A 5A2,-16.4712,112.4255
+805,iOS,Apple,Iphone,13,iOS,16.1,en_US,Lake Nathaniel,IDN,A4A 3A8,50.0468,-102.2272
+806,Android,Samsumg,g17,18,Android,Cake,fr_CA,Kemmercester,VUT,A5A 8A7,-27.5736,-6.5938
+807,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Holdenhaven,NAM,A9A 3A0,-84.7172,76.7089
+808,Android,Samsumg,g17,18,Android,Cake,fr_CA,The Villages,NLD,A0A 9A5,63.0245,-161.7471
+809,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,New Russelstead,ISR,A9A 8A0,-73.6839,-90.195
+810,iOS,Apple,Iphone,13,iOS,16.1,en_CA,North Jeffreystead,CIV,A2A 3A8,82.3239,145.8107
+811,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Millerside,NZL,A9A 1A9,81.493,-4.6705
+812,Android,Samsumg,g17,18,Android,Cake,fr_CA,South Victor,MAF,A6A 4A2,-76.4284,-162.9397
+813,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Alphonsoview,MWI,A4A 4A7,39.7556,144.0163
+814,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Richardson,LVA,A5A 0A0,-21.5973,-120.0921
+815,iOS,Apple,Iphone,13,iOS,16.1,en_US,New Milfordtown,FRA,A6A 8A9,46.6282,-71.8877
+816,iOS,Apple,Iphone,13,iOS,16.1,en_CA,South Antoneville,ZAF,A0A 7A6,35.3463,87.6509
+817,iOS,Apple,Iphone,13,iOS,16.1,en_US,Naderberg,GEO,A0A 9A5,-53.0726,164.3523
+818,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Port Noble,REU,A4A 1A7,5.0069,100.6909
+819,iOS,Apple,Iphone,13,iOS,16.1,en_US,Thomasberg,UMI,A8A 4A9,-16.3444,-154.8075
+820,iOS,Apple,Iphone,13,iOS,16.1,en_US,South Allisonton,DEU,A7A 3A0,-18.0734,12.8717
+821,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,North Olga,CAF,A8A 2A9,-70.6088,-158.7662
+822,Android,Samsumg,g17,18,Android,Cake,en_CA,Nicolasland,COM,A0A 4A5,-52.3749,-173.3051
+823,Android,Samsumg,g17,18,Android,Cake,en_CA,North Simboro,ARE,A5A 7A8,10.9571,-135.8117
+824,iOS,Apple,Iphone,13,iOS,16.1,en_US,Fort Luciennefurt,GRC,A8A 4A4,42.497,-160.9804
+825,Android,Samsumg,g17,18,Android,Cake,en_US,South Wilber,CCK,A2A 6A5,52.5845,84.8395
+826,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Jaylanview,MMR,A6A 9A1,30.6655,-60.2137
+827,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Albinworth,KNA,A2A 0A8,-79.351,-142.4642
+828,iOS,Apple,Iphone,13,iOS,16.1,en_CA,South Kacie,CUW,A9A 5A7,51.8469,148.5205
+829,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,East Ethel,GNB,A6A 4A3,85.5703,-50.9924
+830,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Denaworth,SWE,A1A 2A8,-5.8061,47.2294
+831,Android,Samsumg,g17,18,Android,Cake,fr_CA,Linden,ATG,A1A 4A3,17.907,-17.7599
+832,Android,Samsumg,g17,18,Android,Cake,en_US,Fritschcester,MCO,A5A 7A6,-34.8253,-174.3104
+833,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,North Jordon,CYP,A0A 7A1,56.0769,-93.1672
+834,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Dallas,UMI,A8A 2A1,86.951,-41.614
+835,Android,Samsumg,g17,18,Android,Cake,fr_CA,Hahnland,PAN,A6A 4A3,72.907,-48.7293
+836,iOS,Apple,Iphone,13,iOS,16.1,en_US,Heidenreichmouth,ARE,A1A 5A5,48.2959,93.8654
+837,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Jenkinsview,SAU,A6A 6A8,7.4325,-7.9408
+838,Android,Samsumg,g17,18,Android,Cake,en_CA,Lake Kaitlin,PHL,A5A 6A7,3.9038,-138.4957
+839,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Bodeboro,NGA,A8A 3A4,45.5982,-73.8764
+840,Android,Samsumg,g17,18,Android,Cake,fr_CA,Wymanton,ISL,A3A 2A1,-14.7843,-41.0777
+841,Android,Samsumg,g17,18,Android,Cake,en_CA,Orlandton,MRT,A8A 7A4,46.1491,13.7861
+842,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,East Tremaynefield,CZE,A6A 2A9,-60.1333,-113.2865
+843,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Annabellburgh,AIA,A5A 2A3,78.771,-111.6947
+844,Android,Samsumg,g17,18,Android,Cake,fr_CA,Silver Spring,GNQ,A4A 8A2,15.1098,-179.5609
+845,Android,Samsumg,g17,18,Android,Cake,fr_CA,Fort Deontae,NGA,A9A 3A3,40.5948,154.008
+846,Webapp,Microsoft,Chrome,14,Windows,11,en_US,New Cletaworth,GRD,A4A 6A0,53.3924,-18.0209
+847,Android,Samsumg,g17,18,Android,Cake,en_CA,Lizaside,ESH,A5A 4A3,69.2946,126.0249
+848,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Lake Rickey,CMR,A6A 7A0,-63.4792,158.4407
+849,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Tempe,TZA,A7A 4A5,37.7607,-164.1782
+850,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Erickacester,MNG,A3A 4A4,57.6071,-85.8995
+851,Android,Samsumg,g17,18,Android,Cake,en_CA,Hahnfield,SGP,A8A 4A3,1.4671,63.3951
+852,iOS,Apple,Iphone,13,iOS,16.1,en_US,East Lansing,WSM,A9A 9A0,16.3001,-46.5793
+853,Android,Samsumg,g17,18,Android,Cake,en_CA,Krisberg,PRY,A9A 9A8,-73.1171,10.5509
+854,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Fadelchester,COM,A4A 3A6,-87.6208,-93.9333
+855,iOS,Apple,Iphone,13,iOS,16.1,en_US,Port Dawsonstad,GEO,A5A 6A9,45.5853,176.2213
+856,Android,Samsumg,g17,18,Android,Cake,en_US,Paramount,FJI,A1A 9A0,46.256,164.0104
+857,Webapp,Microsoft,Chrome,14,Windows,11,en_US,South Amina,ALB,A5A 4A1,-44.7489,31.5429
+858,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Abshireside,NOR,A7A 8A7,45.1454,-21.0586
+859,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Harberland,DNK,A5A 3A8,1.3886,-107.6228
+860,Android,Samsumg,g17,18,Android,Cake,en_US,North Sagebury,ROU,A1A 2A3,29.2039,-113.0417
+861,iOS,Apple,Iphone,13,iOS,16.1,en_CA,North Vicentebury,BHS,A6A 2A1,-76.2193,-137.1553
+862,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,New Abelardo,AZE,A3A 2A2,37.2915,-88.4251
+863,Android,Samsumg,g17,18,Android,Cake,en_US,Lake Aditya,MDV,A3A 4A7,-14.2947,-32.2129
+864,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Verdieport,SWZ,A3A 5A2,54.9785,45.5968
+865,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Peabody,RWA,A4A 9A3,58.9732,39.4365
+866,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Cerritos,MDA,A1A 3A8,35.4226,102.0616
+867,Android,Samsumg,g17,18,Android,Cake,en_US,Earlbury,MLT,A5A 9A5,-80.2017,-100.2919
+868,iOS,Apple,Iphone,13,iOS,16.1,en_US,Thoramouth,SHN,A7A 9A5,-66.8565,-38.1816
+869,iOS,Apple,Iphone,13,iOS,16.1,en_US,Council Bluffs,JOR,A1A 1A0,-29.0123,-115.7469
+870,Android,Samsumg,g17,18,Android,Cake,fr_CA,New Makennaboro,VEN,A4A 6A2,31.1631,-150.8189
+871,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Troy,NER,A1A 4A3,17.7261,34.4726
+872,Android,Samsumg,g17,18,Android,Cake,en_US,Port Adonisburgh,KIR,A7A 1A5,-51.8891,-20.6618
+873,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Felipeland,PAN,A6A 1A9,-81.2807,-155.4904
+874,iOS,Apple,Iphone,13,iOS,16.1,en_US,Muellerfield,SEN,A1A 3A2,-60.8092,18.8425
+875,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Clairport,COL,A9A 1A0,74.7071,52.0042
+876,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Zariabury,CPV,A8A 1A7,-8.4586,-153.6824
+877,Android,Samsumg,g17,18,Android,Cake,en_US,South Julio,VNM,A7A 6A4,53.8367,-61.6071
+878,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,West Keaton,TCD,A1A 9A4,-20.5791,131.0705
+879,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Merced,GUY,A8A 4A4,-63.4737,-111.0569
+880,iOS,Apple,Iphone,13,iOS,16.1,en_US,Omaha,ARG,A1A 5A6,66.1827,77.8444
+881,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,West Kelliport,MDA,A4A 6A9,7.4176,-37.7854
+882,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Braunhaven,MWI,A2A 4A7,15.2348,105.5691
+883,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,East Mattworth,IRQ,A1A 3A6,5.2948,116.0897
+884,Android,Samsumg,g17,18,Android,Cake,fr_CA,Lake Joany,CXR,A4A 0A0,-77.6195,111.0737
+885,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,South Desmond,WLF,A6A 8A1,8.2005,-43.5714
+886,Android,Samsumg,g17,18,Android,Cake,fr_CA,Helenafurt,BMU,A4A 0A2,43.1751,-28.1357
+887,Android,Samsumg,g17,18,Android,Cake,en_US,Calehaven,ALA,A4A 3A0,-24.6069,31.788
+888,Webapp,Microsoft,Chrome,14,Windows,11,en_US,South Sunny,VCT,A2A 2A5,-49.4663,-51.8735
+889,Android,Samsumg,g17,18,Android,Cake,en_CA,East Anjali,KIR,A0A 8A8,20.2213,-120.1617
+890,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Redding,SVN,A0A 6A7,47.6061,11.1821
+891,Android,Samsumg,g17,18,Android,Cake,en_CA,Greenville,PRK,A7A 9A3,-44.6165,49.9144
+892,Android,Samsumg,g17,18,Android,Cake,fr_CA,West Brendamouth,BHR,A9A 6A8,70.3502,107.095
+893,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Kunzefield,LCA,A9A 8A3,54.8432,-94.2311
+894,Android,Samsumg,g17,18,Android,Cake,en_US,South Davontebury,UGA,A6A 3A1,81.0747,-163.6673
+895,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Lillianville,GMB,A4A 7A9,-84.9919,40.1241
+896,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Ozellaport,PRY,A9A 2A5,44.3925,121.6204
+897,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Fort Nathanial,FSM,A8A 4A3,-83.912,-7.3023
+898,Android,Samsumg,g17,18,Android,Cake,en_US,Abigaylebury,LBY,A5A 6A1,-82.9366,-0.6872
+899,Android,Samsumg,g17,18,Android,Cake,fr_CA,South Melliemouth,COK,A6A 1A2,-8.6895,-143.4115
+900,iOS,Apple,Iphone,13,iOS,16.1,en_US,Spinkabury,GGY,A0A 0A0,-59.6118,-55.3279
+901,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Greenholtstad,COM,A6A 6A0,34.8925,139.579
+902,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Grand Rapids,BDI,A3A 6A3,40.6647,131.4578
+903,Android,Samsumg,g17,18,Android,Cake,fr_CA,Kozeyworth,CMR,A1A 8A5,54.9977,-8.6644
+904,Android,Samsumg,g17,18,Android,Cake,en_CA,North Missouriborough,TJK,A3A 0A3,-86.4877,-113.8571
+905,Webapp,Microsoft,Chrome,14,Windows,11,en_US,West Bellfurt,ISR,A9A 5A4,-34.289,58.5035
+906,Android,Samsumg,g17,18,Android,Cake,en_US,Randalstead,BHR,A1A 4A5,68.5173,-140.4488
+907,Android,Samsumg,g17,18,Android,Cake,en_CA,Lowefort,AGO,A6A 8A5,30.7678,-113.8899
+908,Android,Samsumg,g17,18,Android,Cake,en_CA,Davie,PER,A0A 6A3,-78.3628,69.8056
+909,Android,Samsumg,g17,18,Android,Cake,en_US,Chula Vista,MNE,A3A 7A4,63.7545,116.034
+910,Webapp,Microsoft,Chrome,14,Windows,11,en_US,West Sandra,ATF,A3A 6A3,7.9476,-118.3935
+911,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Fort Athena,GEO,A8A 1A0,10.9232,-88.9322
+912,Android,Samsumg,g17,18,Android,Cake,en_US,Nedton,TUV,A2A 3A2,77.7464,128.0628
+913,Android,Samsumg,g17,18,Android,Cake,fr_CA,Justinaborough,IRN,A8A 9A0,-12.1835,154.4226
+914,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Thaliaton,GIB,A4A 1A9,-70.4487,-119.6435
+915,Android,Samsumg,g17,18,Android,Cake,en_CA,Levittown,GTM,A6A 1A6,66.8351,-153.6053
+916,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Dasiaboro,LUX,A2A 0A4,8.0919,163.8336
+917,Android,Samsumg,g17,18,Android,Cake,fr_CA,West Alessiatown,PAN,A6A 3A1,-83.2608,-121.4927
+918,Android,Samsumg,g17,18,Android,Cake,en_US,Port Muhammad,PRT,A3A 5A8,-50.3531,-17.1604
+919,Android,Samsumg,g17,18,Android,Cake,fr_CA,Mishawaka,DEU,A7A 5A8,-22.5075,-119.3076
+920,Android,Samsumg,g17,18,Android,Cake,fr_CA,Tremaineside,IOT,A0A 1A9,62.1223,-68.4258
+921,iOS,Apple,Iphone,13,iOS,16.1,en_US,Waelchitown,CAN,A3A 0A5,38.9649,-103.4745
+922,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Kristoferstead,SUR,A0A 8A7,57.8399,20.6583
+923,Android,Samsumg,g17,18,Android,Cake,en_CA,New Joy,STP,A2A 3A7,-16.4164,132.0726
+924,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,South Dwightstead,ALB,A9A 7A4,72.5002,-82.3195
+925,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Glendora,HRV,A2A 3A7,-86.3015,31.7432
+926,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Fritschview,KNA,A4A 7A1,-85.0662,2.487
+927,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Dickinsonfort,BHS,A1A 4A2,22.0203,-140.6931
+928,Android,Samsumg,g17,18,Android,Cake,en_US,Issacchester,BIH,A1A 0A7,-63.5268,37.6727
+929,Android,Samsumg,g17,18,Android,Cake,en_CA,Faheystead,NAM,A6A 0A7,-78.939,168.6496
+930,Android,Samsumg,g17,18,Android,Cake,fr_CA,South Selmer,GUF,A3A 4A5,59.2285,103.6664
+931,Android,Samsumg,g17,18,Android,Cake,en_US,West Estelleland,VIR,A7A 2A1,0.6072,51.1294
+932,Android,Samsumg,g17,18,Android,Cake,en_CA,Broken Arrow,IOT,A0A 4A4,-51.6324,-150.7668
+933,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Lake Edwardobury,WLF,A1A 6A7,-28.553,94.415
+934,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Okunevaview,GRD,A4A 1A1,-25.3672,-29.9087
+935,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,New Dale,SLV,A1A 1A5,76.0826,-33.7961
+936,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Binsside,JPN,A8A 2A8,83.7761,36.7721
+937,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Rowechester,ARE,A5A 4A1,56.7458,-131.8675
+938,Android,Samsumg,g17,18,Android,Cake,en_CA,Vandervortstead,GBR,A7A 3A3,-41.3122,-8.9655
+939,iOS,Apple,Iphone,13,iOS,16.1,en_US,Hoppestad,GHA,A8A 1A6,8.4835,-75.5166
+940,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Clintonview,ARM,A8A 9A9,-80.5027,152.9107
+941,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Steuberboro,LBR,A5A 2A9,-73.7041,51.696
+942,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Edythstead,TCA,A1A 2A0,60.8755,100.7157
+943,iOS,Apple,Iphone,13,iOS,16.1,en_US,West Rudolphbury,NAM,A6A 8A0,49.8045,74.2512
+944,Android,Samsumg,g17,18,Android,Cake,en_CA,Kuhlmanstad,PLW,A6A 5A9,-13.1476,-103.8767
+945,Webapp,Microsoft,Chrome,14,Windows,11,en_US,McDermottville,SAU,A0A 0A6,-11.2181,120.0882
+946,Android,Samsumg,g17,18,Android,Cake,en_CA,Hilllberg,KHM,A5A 8A8,13.3488,-115.4643
+947,iOS,Apple,Iphone,13,iOS,16.1,en_CA,West Vincenzo,ALA,A9A 5A6,63.3159,-160.8436
+948,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Tryciaborough,KIR,A2A 7A0,-58.2452,-133.0347
+949,Android,Samsumg,g17,18,Android,Cake,en_CA,Boyerfurt,NIU,A1A 0A7,85.25,-2.2933
+950,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Althealand,BEL,A2A 9A6,-17.8152,166.3159
+951,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Fort Linwood,SOM,A9A 0A7,13.5353,98.0133
+952,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,South Tyler,PYF,A1A 0A4,43.2301,-118.9752
+953,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Delphiaborough,ISL,A1A 6A3,-15.3654,-167.3192
+954,Android,Samsumg,g17,18,Android,Cake,en_US,Port Brock,SLE,A9A 9A9,28.1692,-88.4913
+955,Android,Samsumg,g17,18,Android,Cake,en_US,West Johanna,PHL,A3A 8A8,-88.9712,79.0255
+956,iOS,Apple,Iphone,13,iOS,16.1,en_US,East Makennahaven,MAR,A8A 1A0,23.1284,-61.7491
+957,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Port Jaquanburgh,TWN,A7A 6A9,65.252,139.4386
+958,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Lestertown,DNK,A7A 3A0,64.2191,-76.8546
+959,iOS,Apple,Iphone,13,iOS,16.1,en_US,North Kennediport,ALA,A4A 7A0,6.7941,122.8263
+960,iOS,Apple,Iphone,13,iOS,16.1,en_US,Murazikfort,LBN,A6A 7A0,80.2796,69.1562
+961,Android,Samsumg,g17,18,Android,Cake,fr_CA,Chesapeake,MEX,A8A 6A8,-41.7578,86.5172
+962,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Nikolausview,MAR,A1A 3A9,-16.5623,-126.0882
+963,Android,Samsumg,g17,18,Android,Cake,en_CA,West Deshaunmouth,GUM,A8A 1A6,5.7679,-156.6104
+964,iOS,Apple,Iphone,13,iOS,16.1,en_US,Berneicestad,LUX,A4A 2A6,-76.4519,-42.5034
+965,Android,Samsumg,g17,18,Android,Cake,en_CA,South Minnieburgh,BRA,A0A 1A3,-31.5784,-25.8859
+966,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Lake Nicolettetown,SHN,A4A 0A6,29.9952,-79.5937
+967,Android,Samsumg,g17,18,Android,Cake,en_US,Palm Harbor,TCA,A2A 5A1,40.065,-41.8934
+968,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,New Fleta,PAK,A4A 8A2,62.032,118.6776
+969,iOS,Apple,Iphone,13,iOS,16.1,en_US,North Uriah,SYR,A5A 1A8,-38.3918,47.2357
+970,iOS,Apple,Iphone,13,iOS,16.1,en_US,South Sandrine,VCT,A7A 8A9,45.9454,83.4427
+971,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Cathedral City,EGY,A7A 2A4,-41.7679,143.1937
+972,Android,Samsumg,g17,18,Android,Cake,en_US,Corpus Christi,SLE,A9A 5A2,38.553,144.6644
+973,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Turcotteshire,NCL,A5A 1A9,-53.3976,84.6613
+974,Android,Samsumg,g17,18,Android,Cake,en_CA,Cummingsfield,ISL,A0A 2A0,-1.8818,166.002
+975,Android,Samsumg,g17,18,Android,Cake,en_CA,Funkfield,LIE,A8A 4A8,-57.4685,-164.2942
+976,iOS,Apple,Iphone,13,iOS,16.1,en_CA,New Dannieburgh,MNE,A1A 9A8,-45.0356,-141.806
+977,Android,Samsumg,g17,18,Android,Cake,en_CA,Gayleside,ETH,A8A 0A8,63.8423,-121.7456
+978,Android,Samsumg,g17,18,Android,Cake,en_US,Moseton,BRB,A7A 1A8,70.4428,-158.6225
+979,Android,Samsumg,g17,18,Android,Cake,en_CA,Zackerymouth,ATA,A8A 8A2,22.7108,101.0715
+980,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Rocky Mount,PRY,A4A 1A6,-51.7984,-27.7198
+981,iOS,Apple,Iphone,13,iOS,16.1,en_US,Hudsonhaven,TGO,A6A 6A7,0.1747,-31.6999
+982,Android,Samsumg,g17,18,Android,Cake,en_US,New Rylan,SYC,A5A 0A4,24.3495,123.2699
+983,Android,Samsumg,g17,18,Android,Cake,fr_CA,Port Garrickfort,AND,A8A 9A4,-59.0756,116.4672
+984,iOS,Apple,Iphone,13,iOS,16.1,en_CA,Timmothytown,KAZ,A3A 3A8,71.5927,116.4407
+985,Android,Samsumg,g17,18,Android,Cake,en_CA,South Quincyside,BRA,A0A 4A5,44.1933,110.1229
+986,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,West Orville,BLZ,A9A 4A9,-56.0419,-57.1478
+987,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Farmington,CAN,A1A 4A3,-9.0901,177.1269
+988,Android,Samsumg,g17,18,Android,Cake,en_CA,Port Armando,LUX,A8A 6A3,72.801,-21.145
+989,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Maricopa,FSM,A6A 0A1,-3.0753,147.0982
+990,Android,Samsumg,g17,18,Android,Cake,en_US,Twilaboro,SVN,A8A 1A8,-38.2726,-20.3828
+991,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Hackettmouth,TTO,A1A 1A4,56.6088,-128.6219
+992,Webapp,Microsoft,Chrome,14,Windows,11,en_US,Weberworth,HRV,A8A 6A7,-16.8896,155.2409
+993,Webapp,Microsoft,Chrome,14,Windows,11,en_CA,Grahamview,GTM,A9A 6A3,13.8479,144.2224
+994,Android,Samsumg,g17,18,Android,Cake,fr_CA,Kokomo,TUN,A3A 9A5,-10.4026,-89.0903
+995,iOS,Apple,Iphone,13,iOS,16.1,fr_CA,Johns Creek,UKR,A7A 9A1,31.1048,71.0269
+996,iOS,Apple,Iphone,13,iOS,16.1,en_US,Tustin,LBY,A8A 8A5,58.4666,179.2564
+997,Webapp,Microsoft,Chrome,14,Windows,11,en_US,South Heidistad,SYR,A5A 9A1,4.1945,-81.977
+998,Android,Samsumg,g17,18,Android,Cake,en_CA,South Julian,EST,A1A 1A6,75.98,-71.2218
+999,Webapp,Microsoft,Chrome,14,Windows,11,fr_CA,Kissimmee,TZA,A4A 9A3,29.2687,-139.7635

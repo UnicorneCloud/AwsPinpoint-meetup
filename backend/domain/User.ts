@@ -1,3 +1,5 @@
+import { Demographic, Location } from "./Event"
+
 export enum Genders {
   Male = 'male',
   Female = 'female',
@@ -12,4 +14,8 @@ export interface User {
   FullName: string
   Age: number
   Gender: Genders
+}
+
+export type UserDemographic = Demographic & Location & {
+  UserId: string
 }

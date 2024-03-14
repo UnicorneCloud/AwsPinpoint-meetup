@@ -1,4 +1,5 @@
 import { faker } from "@faker-js/faker"
+import { Demographic, Location } from "../domain"
 
 const models = [
   {
@@ -33,7 +34,7 @@ const languages = [
   'en_US',
 ]
 
-export const createEndpointDemographic = () => {
+export const generateDemographic = (): Demographic => {
   const model = faker.helpers.arrayElement(models)
   return {
     ...model,
@@ -41,7 +42,7 @@ export const createEndpointDemographic = () => {
   }
 }
 
-export const createEndpointLocation = () => {
+export const generateLocation = (): Location => {
   return {
     City: faker.location.city(),
     Country: faker.location.countryCode('alpha-3'),
