@@ -10,6 +10,8 @@ export interface PersonalizeStackProps extends StackProps {
 }
 
 export class PersonalizeStack extends Stack {
+  datasetGroup: personalize.CfnDatasetGroup;
+  personalizationSolution: personalize.CfnSolution
 
   constructor(scope: Construct, id: string, props: PersonalizeStackProps) {
     super(scope, id, props)
@@ -32,7 +34,7 @@ export class PersonalizeStack extends Stack {
       ]
     }))
 
-    const datasetGroup = new personalize.CfnDatasetGroup(this, 'uni-streaming-dataset-group', {
+    this.datasetGroup = new personalize.CfnDatasetGroup(this, 'uni-streaming-dataset-group', {
       name: 'UniStreamingDatasetGroup',
     })
 
@@ -41,9 +43,9 @@ export class PersonalizeStack extends Stack {
       schema: JSON.stringify(PersonalizeInteractionSchema),
     })
 
-    const interactionsDataset = new personalize.CfnDataset(this, 'uni-streaming-interactions-dataset', {
+    new personalize.CfnDataset(this, 'uni-streaming-interactions-dataset', {
       schemaArn: interactionsSchema.attrSchemaArn,
-      datasetGroupArn: datasetGroup.attrDatasetGroupArn,
+      datasetGroupArn: this.datasetGroup.attrDatasetGroupArn,
       datasetType: 'Interactions',
       name: 'uni-streaming-interactions-dataset',
       datasetImportJob: {
@@ -60,9 +62,9 @@ export class PersonalizeStack extends Stack {
       schema: JSON.stringify(PersonalizeUserSchema),
     })
 
-    const usersDataset = new personalize.CfnDataset(this, 'uni-streaming-users-dataset', {
+    new personalize.CfnDataset(this, 'uni-streaming-users-dataset', {
       schemaArn: usersSchema.attrSchemaArn,
-      datasetGroupArn: datasetGroup.attrDatasetGroupArn,
+      datasetGroupArn: this.datasetGroup.attrDatasetGroupArn,
       datasetType: 'Users',
       name: 'uni-streaming-users-dataset',
       datasetImportJob: {
@@ -79,9 +81,9 @@ export class PersonalizeStack extends Stack {
       schema: JSON.stringify(PersonalizeItemsSchema),
     })
 
-    const itemsDataset = new personalize.CfnDataset(this, 'uni-streaming-items-dataset', {
+    new personalize.CfnDataset(this, 'uni-streaming-items-dataset', {
       schemaArn: itemsSchema.attrSchemaArn,
-      datasetGroupArn: datasetGroup.attrDatasetGroupArn,
+      datasetGroupArn: this.datasetGroup.attrDatasetGroupArn,
       datasetType: 'Items',
       name: 'uni-streaming-items-dataset',
       datasetImportJob: {
@@ -93,9 +95,9 @@ export class PersonalizeStack extends Stack {
       },
     })
 
-    new personalize.CfnSolution(this, 'uni-streaming-user-personalization', {
+    this.personalizationSolution = new personalize.CfnSolution(this, 'uni-streaming-user-personalization', {
       name: 'uni-streaming-user-personalization',
-      datasetGroupArn: datasetGroup.attrDatasetGroupArn,
+      datasetGroupArn: this.datasetGroup.attrDatasetGroupArn,
       recipeArn: 'arn:aws:personalize:::recipe/aws-user-personalization',
       // https://docs.aws.amazon.com/personalize/latest/dg/native-recipe-new-item-USER_PERSONALIZATION.html#bandit-hyperparameters
       solutionConfig: {
