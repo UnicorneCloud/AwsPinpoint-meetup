@@ -60,8 +60,9 @@ export class AWSPersonalizeMovieRecommender {
 }
 
 const create = () => {
-  const client = new PersonalizeClient({ region: 'ca-central-1' })
-  const runTimeClient = new PersonalizeRuntimeClient({ region: 'ca-central-1' })
+  const region = getEnvVariable(EnvKeys.REGION)
+  const client = new PersonalizeClient({ region: region })
+  const runTimeClient = new PersonalizeRuntimeClient({ region: region })
   const ssmStore = Injector.get(SSMStore)!
   return new AWSPersonalizeMovieRecommender(client, runTimeClient, ssmStore)
 }

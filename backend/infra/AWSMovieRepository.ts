@@ -4,6 +4,7 @@ import { GetObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import { Movie, MovieRepository } from "../domain";
 import { AWSPersonalizeMovieRecommender } from "./AWSPersonalizeMovieRecommender";
 import { CsvStream } from "../data-generation/csv";
+import { EnvKeys, getEnvVariable } from "../env";
 
 const BUCKET_NAME = 'uni-streaming-bucket'
 
@@ -47,7 +48,7 @@ export class AWSMovieRepository implements MovieRepository {
 const create = () => {
   return new AWSMovieRepository(
     Injector.get(AWSPersonalizeMovieRecommender)!,
-    new S3Client({ region: 'ca-central-1' }),
+    new S3Client({ region: getEnvVariable(EnvKeys.REGION) }),
     Injector.get(CsvStream)!,
   )
 }

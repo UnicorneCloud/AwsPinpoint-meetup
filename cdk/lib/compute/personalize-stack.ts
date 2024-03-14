@@ -2,10 +2,11 @@ import { Construct } from 'constructs';
 import * as personalize from 'aws-cdk-lib/aws-personalize';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 import * as iam from 'aws-cdk-lib/aws-iam';
-import { Stack, StackProps } from 'aws-cdk-lib';
+import { Stack } from 'aws-cdk-lib';
 import { PersonalizeInteractionSchema, PersonalizeItemsSchema, PersonalizeUserSchema } from './schemas';
+import { ProjectStackProps } from '~/cdk/common';
 
-export interface PersonalizeStackProps extends StackProps {
+export interface PersonalizeStackProps extends ProjectStackProps {
   bucket: s3.IBucket
 }
 

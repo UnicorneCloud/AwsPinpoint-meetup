@@ -1,5 +1,6 @@
 import { GetParameterCommand, PutParameterCommand, SSMClient } from "@aws-sdk/client-ssm";
 import { Injector } from "@sailplane/injector";
+import { EnvKeys, getEnvVariable } from "../env";
 
 export enum StoreKeys {
   PERSONALIZATION_SOLUTION_VERSION_ARN = 'PERSONALIZATION_SOLUTION_VERSION_ARN',
@@ -31,6 +32,6 @@ export class SSMStore {
   }
 }
 
-const create = () => new SSMStore(new SSMClient({ region: 'ca-central-1' }))
+const create = () => new SSMStore(new SSMClient({ region: getEnvVariable(EnvKeys.REGION) }))
 
 Injector.register(SSMStore, create)

@@ -1,11 +1,12 @@
 import { Construct } from 'constructs';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 import * as iam from 'aws-cdk-lib/aws-iam';
-import { RemovalPolicy, Stack, StackProps } from 'aws-cdk-lib';
+import { RemovalPolicy, Stack } from 'aws-cdk-lib';
+import { ProjectStackProps } from '~/cdk/common';
 
 export class S3Stack extends Stack {
   bucket: s3.IBucket
-  constructor(scope: Construct, id: string, props?: StackProps) {
+  constructor(scope: Construct, id: string, props?: ProjectStackProps) {
     super(scope, id, props);
 
     this.bucket = new s3.Bucket(this, 'uni-streaming-bucket', {
