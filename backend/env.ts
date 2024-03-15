@@ -4,6 +4,7 @@ export enum EnvKeys {
   PERSONALIZATION_SOLUTION_ARN = 'PERSONALIZATION_SOLUTION_ARN',
   DATASET_GROUP_ARN = 'DATASET_GROUP_ARN',
   PINPOINT_APP_ID = 'PINPOINT_APP_ID',
+  BUCKET_NAME = 'BUCKET_NAME',
 }
 
 export const isEnvVarDefined = (key: EnvKeys): boolean => {

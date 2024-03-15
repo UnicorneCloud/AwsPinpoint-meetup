@@ -5,32 +5,22 @@ import { Movie, MovieRepository } from "../domain";
 import { AWSPersonalizeMovieRecommender } from "./AWSPersonalizeMovieRecommender";
 import { CsvStream } from "../data-generation/csv";
 import { EnvKeys, getEnvVariable } from "../env";
-
-const BUCKET_NAME = 'uni-streaming-bucket'
+import { S3CSVReader } from "./S3CSVReader";
 
 export class AWSMovieRepository implements MovieRepository {
   private movies: Record<string, Movie>
   constructor(
     private recommender: AWSPersonalizeMovieRecommender,
-    private S3Client: S3Client,
-    private csvStream: CsvStream,
+    private reader: S3CSVReader
   ) {}
 
   private async syncMovies(): Promise<void> {
     if (this.movies) {
       return
     }
-    const request = new GetObjectCommand({
-      Bucket: BUCKET_NAME,
-      Key: 'movies_raw.csv'
-    })
-    const { Body } = await this.S3Client.send(request)
-    if (Body) {
-      const content = await Body.transformToString('utf-8')
-      const movies = this.csvStream.read<Movie>(content)
-      this.movies = {}
-      movies.forEach(movie => this.movies[movie.Id] = movie)
-    }
+    const movies = await this.reader.sync<Movie>('movies_raw.csv')
+    this.movies = {}
+    movies.forEach(movie => this.movies[movie.Id] = movie)
   }
 
   public async getMoviesRecommendations(userId: string, numberOfRecommendations: number): Promise<Movie[]> {
@@ -48,8 +38,7 @@ export class AWSMovieRepository implements MovieRepository {
 const create = () => {
   return new AWSMovieRepository(
     Injector.get(AWSPersonalizeMovieRecommender)!,
-    new S3Client({ region: getEnvVariable(EnvKeys.REGION) }),
-    Injector.get(CsvStream)!,
+    Injector.get(S3CSVReader)!,
   )
 }
 

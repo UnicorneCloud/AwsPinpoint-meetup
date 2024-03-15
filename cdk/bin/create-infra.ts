@@ -21,6 +21,7 @@ const lambdaEnv = {
   PERSONALIZATION_SOLUTION_ARN: personalizeStack.personalizationSolution.attrSolutionArn,
   PERSONALIZATION_RECIPE_ARN: personalizeStack.personalizationSolution.recipeArn || '',
   PINPOINT_APP_ID: pinpointStack.appId,
+  BUCKET_NAME: s3Stack.bucket.bucketName,
 }
 
 new MoviesStack(app, 'uni-streaming-movies-stack', {
