@@ -24,9 +24,9 @@ export class S3CSVUserRepository implements UserRepository {
     if (this.userDemographics) {
       return
     }
-    const users = await this.reader.sync<UserDemographic>('users_demographics_raw.csv')
+    const usersDemographics = await this.reader.sync<UserDemographic>('users_demographics_raw.csv')
     this.userDemographics = {}
-    users.forEach(demographic => this.userDemographics[demographic.UserId] = demographic)
+    usersDemographics.forEach(demographic => this.userDemographics[demographic.UserId] = demographic)
   }
 
   async getUsers(): Promise<User[]> {
@@ -35,6 +35,7 @@ export class S3CSVUserRepository implements UserRepository {
   }
 
   async getUserDemographics(userId: string): Promise<UserDemographic> {
+    await this.syncUserDemographics()
     if (this.userDemographics && this.userDemographics[userId]) {
       return Promise.resolve(this.userDemographics[userId])
     }
