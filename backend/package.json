@@ -42,6 +42,7 @@
     "add": "^2.0.6",
     "bottlejs": "^2.0.1",
     "dayjs": "^1.11.10",
+    "p-limit": "^5.0.0",
     "probability-distributions": "^0.9.1",
     "uuid": "^9.0.1",
     "yarn": "^1.22.22"

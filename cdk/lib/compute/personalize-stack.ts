@@ -13,6 +13,7 @@ export interface PersonalizeStackProps extends ProjectStackProps {
 export class PersonalizeStack extends Stack {
   datasetGroup: personalize.CfnDatasetGroup;
   personalizationSolution: personalize.CfnSolution
+  trendingItemsSolution: personalize.CfnSolution
 
   constructor(scope: Construct, id: string, props: PersonalizeStackProps) {
     super(scope, id, props)
@@ -112,6 +113,18 @@ export class PersonalizeStack extends Stack {
           max_user_history_length_percentile: '0.99',
         },
       },
+    })
+
+    this.trendingItemsSolution = new personalize.CfnSolution(this, 'uni-streaming-trending-items', {
+      name: 'uni-streaming-trending-items',
+      datasetGroupArn: this.datasetGroup.attrDatasetGroupArn,
+      recipeArn: 'arn:aws:personalize:::recipe/aws-trending-now',
+      // https://docs.aws.amazon.com/personalize/latest/dg/native-recipe-trending-now.html
+      solutionConfig: {
+        featureTransformationParameters: {
+          trend_discovery_frequency: '1 day',
+        }
+      }
     })
   }
 }

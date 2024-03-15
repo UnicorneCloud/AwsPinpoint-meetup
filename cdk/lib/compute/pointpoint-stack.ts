@@ -1,4 +1,4 @@
-import { App, Stack, StackProps, aws_s3 as s3 } from 'aws-cdk-lib';
+import { App, Stack } from 'aws-cdk-lib';
 import * as kinesis from 'aws-cdk-lib/aws-kinesis';
 import * as pinpoint from 'aws-cdk-lib/aws-pinpoint';
 import * as iam from 'aws-cdk-lib/aws-iam';

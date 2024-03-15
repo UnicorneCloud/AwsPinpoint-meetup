@@ -1,5 +1,5 @@
 import * as cdk from 'aws-cdk-lib'
-import { KinesisStack, MoviesStack, PersonalizeStack, PinpointStack, S3Stack } from '../lib'
+import { KinesisStack, LambdasStack, PersonalizeStack, PinpointStack, S3Stack } from '../lib'
 import { ProjectDefaultLambdaProps } from '../lib/compute/DefaultProps'
 import { MainStackConfig } from '../common'
 
@@ -20,11 +20,13 @@ const lambdaEnv = {
   DATASET_GROUP_ARN: personalizeStack.datasetGroup.attrDatasetGroupArn,
   PERSONALIZATION_SOLUTION_ARN: personalizeStack.personalizationSolution.attrSolutionArn,
   PERSONALIZATION_RECIPE_ARN: personalizeStack.personalizationSolution.recipeArn || '',
+  TRENDING_NOW_SOLUTION_ARN: personalizeStack.trendingItemsSolution.attrSolutionArn,
+  TRENDING_NOW_RECIPE_ARN: personalizeStack.trendingItemsSolution.recipeArn || '',
   PINPOINT_APP_ID: pinpointStack.appId,
   BUCKET_NAME: s3Stack.bucket.bucketName,
 }
 
-new MoviesStack(app, 'uni-streaming-movies-stack', {
+new LambdasStack(app, 'uni-streaming-movies-stack', {
   bucket: s3Stack.bucket,
   lambdaProps: {
     ...ProjectDefaultLambdaProps,

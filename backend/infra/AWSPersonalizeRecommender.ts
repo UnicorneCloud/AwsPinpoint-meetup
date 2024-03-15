@@ -5,15 +5,15 @@ import { EnvKeys, getEnvVariable } from "../env";
 import { Logger } from "@sailplane/logger";
 import { SSMStore, StoreKeys } from "./SSMStore";
 
-const logger = new Logger('AWSPersonalizeMovieRecommender')
+const logger = new Logger('AWSPersonalizeRecommender')
 
-export class AWSPersonalizeMovieRecommender {
+export class AWSPersonalizeRecommender {
   constructor(private personalizeClient: PersonalizeClient, private personalizeRuntimeClient: PersonalizeRuntimeClient, private ssmStore: SSMStore) {}
 
-  async createSolutionVersionForMoviesRecommendation() {
+  async createSolutionVersion(solutionArn: string, solutionStoreKey: StoreKeys) {
     const solutionVersionRequest = new CreateSolutionVersionCommand({
       trainingMode: 'FULL',
-      solutionArn: getEnvVariable(EnvKeys.PERSONALIZATION_SOLUTION_ARN),
+      solutionArn: solutionArn,
     })
     logger.info('Creating personalize solution version...')
     const { solutionVersionArn } = await this.personalizeClient.send(solutionVersionRequest)
@@ -21,13 +21,13 @@ export class AWSPersonalizeMovieRecommender {
       throw new Error('Personalize solution version arn is null, please retry')
     }
     logger.info('Personalize solution version created.')
-    await this.ssmStore.put(StoreKeys.PERSONALIZATION_SOLUTION_VERSION_ARN, solutionVersionArn)
+    await this.ssmStore.put(solutionStoreKey, solutionVersionArn)
   }
 
-  async createCampaignForMoviesRecommendations() {
-    const solutionVersionArn = await this.ssmStore.get(StoreKeys.PERSONALIZATION_SOLUTION_VERSION_ARN)
+  async createCampaign(solutionStoreKey: StoreKeys, campaignStoreKey: StoreKeys, campaignName: string) {
+    const solutionVersionArn = await this.ssmStore.get(solutionStoreKey)
     const campaignRequest = new CreateCampaignCommand({
-      name: 'personalization-campaign',
+      name: campaignName,
       solutionVersionArn: solutionVersionArn,
     })
     logger.info('Creating personalize campaign version...')
@@ -37,7 +37,7 @@ export class AWSPersonalizeMovieRecommender {
     }
     logger.info('Personalize campaign created.')
 
-    await this.ssmStore.put(StoreKeys.PERSONALIZATION_CAMPAIGN_ARN, campaignArn)
+    await this.ssmStore.put(campaignStoreKey, campaignArn)
   }
 
   async getMoviesIdsRecommendations(userId: string, numberOfResults: number): Promise<string[]> {
@@ -64,7 +64,7 @@ const create = () => {
   const client = new PersonalizeClient({ region: region })
   const runTimeClient = new PersonalizeRuntimeClient({ region: region })
   const ssmStore = Injector.get(SSMStore)!
-  return new AWSPersonalizeMovieRecommender(client, runTimeClient, ssmStore)
+  return new AWSPersonalizeRecommender(client, runTimeClient, ssmStore)
 }
 
-Injector.register(AWSPersonalizeMovieRecommender, create)
+Injector.register(AWSPersonalizeRecommender, create)

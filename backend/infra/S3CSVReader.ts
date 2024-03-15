@@ -17,11 +17,19 @@ export class S3CSVReader {
     const { Body } = await this.S3Client.send(request)
     if (Body) {
       const content = await Body.transformToString('utf-8')
-      return this.csvStream.read<T>(content)
+      const data = this.csvStream.read<T>(content)
+      // CSV files contains an empty line at the end
+      data.pop()
+      return data
     }
 
     throw new Error('Not content found')
   }
 }
 
-Injector.register(S3CSVReader, [S3Client, CsvStream])
+const create = () => {
+  const client = new S3Client({ region: getEnvVariable(EnvKeys.REGION) })
+  return new S3CSVReader(client, Injector.get(CsvStream)!)
+}
+
+Injector.register(S3CSVReader, create)
