@@ -46,16 +46,34 @@ export class AWSMovieRepository implements MovieRepository {
     return Object.values(this.movies)
   }
 
+  async getMoviesByIds(ids: string[]): Promise<Movie[]> {
+    await this.syncMovies()
+    const movies: Movie[] = []
+    ids.forEach((id) => movies.push(this.movies[id]))
+    return movies
+  }
+
   async getMoviesByCategory(): Promise<MovieCategoryRecord> {
     await this.syncMovies()
     return this.moviesByCategory
   }
 
-  public async getMoviesRecommendations(userId: string, numberOfRecommendations: number): Promise<Movie[]> {
+  async getMoviesRecommendations(userId: string, numberOfRecommendations: number): Promise<Movie[]> {
     await this.syncMovies()
 
     if (this.movies) {
       const ids = await this.recommender.getMoviesIdsRecommendations(userId, numberOfRecommendations)
+      return ids.map(id => this.movies[id])
+    }
+
+    return []
+  }
+
+  async getTrendingMovies(numberOfMovies: number): Promise<Movie[]> {
+    await this.syncMovies()
+
+    if (this.movies) {
+      const ids = await this.recommender.getTrendingMovieIds(numberOfMovies)
       return ids.map(id => this.movies[id])
     }
 

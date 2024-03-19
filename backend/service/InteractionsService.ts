@@ -1,10 +1,12 @@
-import { da, faker } from "@faker-js/faker";
-import { Event, InteractionTypes, Movie, MovieRepository, User, UserDemographic, UserRepository, pickMovie } from "../domain";
+import { faker } from "@faker-js/faker";
+import { v4 as uuidv4 } from 'uuid'
+import { Event, InteractionTypes, Movie, MovieRepository, UserDemographic, UserRepository, pickMovie } from "../domain";
 import { Injector } from "@sailplane/injector";
 import pLimit from 'p-limit'
 import { AWSMovieRepository, S3CSVUserRepository } from "../infra";
 import { AWSPinpointClient, EventParam } from "../infra/AWSPinpointClient";
 import { Logger } from "@sailplane/logger";
+import { AWSPersonalizeRecommender } from "../infra/AWSPersonalizeRecommender";
 
 const logger = new Logger('InteractionsService')
 
@@ -13,10 +15,13 @@ export class InteractionsService {
     private userRepository: UserRepository,
     private movieRepository: MovieRepository,
     private pinpointClient: AWSPinpointClient,
+    private personalizeRecommender: AWSPersonalizeRecommender,
   ) {}
 
   private createWatchEvent(movie: Movie, demographic: UserDemographic): Event<Record<string, string>> {
+    const eventId = uuidv4()
     return {
+      Id: eventId,
       Type: InteractionTypes.Watch,
       Timestamp: faker.date.recent(),
       Demographic: {
@@ -42,6 +47,35 @@ export class InteractionsService {
     }
   }
 
+  private async sendToPinpoint(data: EventParam<Record<string, string>>[]) {
+    // Pinpoint has a limit of 100 items per batch
+    const chunkSize = 100
+    const chunked = []
+    for (let i = 0; i < data.length; i += chunkSize) {
+      const chunk = data.slice(i, i + chunkSize)
+      chunked.push(chunk)
+    }
+
+    logger.info('Number of batch to send', chunked.length)
+
+    const limit = pLimit(5)
+    const promises = chunked.map((chunk) => limit(() => this.pinpointClient.sendEvents(chunk)))
+    await Promise.all(promises)
+  }
+
+  private async sendToPersonalize(data: EventParam<Record<string, string>>[]) {
+    const limit = pLimit(5)
+    const promises = data.map((datum) => limit(async () => {
+        await new Promise(resolve => setTimeout(resolve, 250))
+        await this.personalizeRecommender.putEvent({
+          user: datum.user,
+          event: datum.event,
+        })
+      }
+    ))
+    await Promise.all(promises)
+  }
+
   async createUsersInteraction(): Promise<void> {
     logger.info('Creating users interaction')
 
@@ -64,21 +98,11 @@ export class InteractionsService {
     )
 
     logger.info('Data to be pushed in clients', data.length)
+    logger.info('Sample', data[0])
 
-    // Pinpoint has a limit of 100 items per batch
-    const chunkSize = 100
-    const chunked = []
-    for (let i = 0; i < data.length; i += chunkSize) {
-      const chunk = data.slice(i, i + chunkSize)
-      chunked.push(chunk)
-    }
-
-    logger.info('Number of batch to send', chunked.length)
-
-    const limit = pLimit(5)
-    const promises = chunked.map((chunk) => limit(() => this.pinpointClient.sendEvents(chunk)))
-    await Promise.all(promises)
+    await this.sendToPinpoint(data)
+    await this.sendToPersonalize(data)
   }
 }
 
-Injector.register(InteractionsService, [S3CSVUserRepository, AWSMovieRepository, AWSPinpointClient])
+Injector.register(InteractionsService, [S3CSVUserRepository, AWSMovieRepository, AWSPinpointClient, AWSPersonalizeRecommender])

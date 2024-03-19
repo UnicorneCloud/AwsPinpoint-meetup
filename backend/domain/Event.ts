@@ -19,6 +19,7 @@ export interface Location {
 }
 
 export interface Event<T extends Record<string, string>> {
+  Id: string
   Attributes: T
   Type: InteractionTypes
   Timestamp: Date

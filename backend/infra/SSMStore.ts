@@ -7,10 +7,16 @@ export enum StoreKeys {
   PERSONALIZATION_CAMPAIGN_ARN = 'PERSONALIZATION_CAMPAIGN_ARN',
   TRENDING_NOW_SOLUTION_VERSION_ARN = 'TRENDING_NOW_SOLUTION_VERSION_ARN',
   TRENDING_NOW_CAMPAIGN_ARN = 'TRENDING_NOW_CAMPAIGN_ARN',
+  EVENT_TRACKER_TRACKING_ID = 'EVENT_TRACKER_TRACKING_ID',
+  EVENT_TRACKER_ARN = 'EVENT_TRACKER_ARN',
 }
 
 export class SSMStore {
-  constructor(private client: SSMClient) {}
+  private cache: Record<StoreKeys, string>
+
+  constructor(private client: SSMClient) {
+    this.cache = {} as Record<StoreKeys, string>
+  }
 
   async put(key: StoreKeys, value: string) {
     await this.client.send(new PutParameterCommand({
@@ -22,6 +28,10 @@ export class SSMStore {
   }
 
   async get(key: StoreKeys) {
+    if (this.cache[key] != null) {
+      return this.cache[key]
+    }
+
     const { Parameter } = await this.client.send(new GetParameterCommand({
       Name: key,
     }))

@@ -1,9 +1,8 @@
-import { v4 as uuidv4 } from 'uuid'
-import { EventsBatch, PinpointClient, PutEventsCommand } from '@aws-sdk/client-pinpoint'
+import { CreateCampaignCommand, CreateSegmentCommand, EventsBatch, PinpointClient, PutEventsCommand } from '@aws-sdk/client-pinpoint'
 import { Injector } from '@sailplane/injector'
 import { Logger } from '@sailplane/logger'
 
-import { Event, User } from '../domain'
+import { Event, Movie, User } from '../domain'
 import { EnvKeys, getEnvVariable } from '../env'
 
 const MAX_LENGTH = 200
@@ -58,13 +57,80 @@ export class AWSPinpointClient {
     return attributes
   }
 
-  public async sendEvents<T extends Record<string, string>>(params: EventParam<T>[]): Promise<void> {
+  async createDidNotWatchSegment(movie: Movie, segmentName: string): Promise<string> {
+    const request = new CreateSegmentCommand({
+      ApplicationId: getEnvVariable(EnvKeys.PINPOINT_APP_ID),
+      WriteSegmentRequest: {
+        Name: segmentName,
+        SegmentGroups: {
+          Groups: [
+            {
+              Dimensions: [
+                {
+                  Attributes: {
+                    Name: {
+                      AttributeType: 'EXCLUSIVE',
+                      Values: [movie.Name],
+                    },
+                  }
+                }
+              ]
+            }
+          ],
+          Include: 'ANY',
+        }
+      }
+    })
+
+    const { SegmentResponse } = await this.client.send(request)
+    logger.info('Creating segment response', SegmentResponse)
+
+    if (SegmentResponse && SegmentResponse.Id && SegmentResponse.Id !== '') {
+      return SegmentResponse.Id
+    }
+
+    throw new Error('Segment could not be created')
+  }
+
+  async createCampaignForTrendingMovie(movie: Movie, campaignName: string, segmentId: string): Promise<string> {
+    const request = new CreateCampaignCommand({
+      ApplicationId: getEnvVariable(EnvKeys.PINPOINT_APP_ID),
+      WriteCampaignRequest: {
+        Name: campaignName,
+        SegmentId: segmentId,
+        Schedule: {
+          Frequency: 'ONCE',
+          IsLocalTime: true,
+          StartTime: 'IMMEDIATE',
+          Timezone: 'UTC-04'
+        },
+        MessageConfiguration: {
+          EmailMessage: {
+            FromAddress: 'philippe.trepanier@unicorne.cloud',
+            Title: `${movie.Name} is trending now!`,
+            Body: `You might want to watch this trending movie: ${movie.Name} - ${movie.Category} - ${movie.Description}`,
+          }
+        }
+      }
+    })
+
+    const { CampaignResponse } = await this.client.send(request)
+    logger.info('Creating campaign response', CampaignResponse)
+
+    if (CampaignResponse && CampaignResponse.Id && CampaignResponse.Id !== '') {
+      return CampaignResponse.Id
+    }
+
+    throw new Error('CampaignResponse could not be created')
+  }
+
+  async sendEvents<T extends Record<string, string>>(params: EventParam<T>[]): Promise<void> {
     const batch: Record<string, EventsBatch> = params.reduce((acc, param) => {
       const { user, event } = param
-      const eventId = uuidv4()
-      acc[eventId] = {
+      const prefix = user.Email.split('@')[0]
+      acc[user.Id] = {
         Endpoint: {
-          Address: user.Email,
+          Address: `philippe.trepanier+${prefix}@unicorne.cloud`,
           Attributes: {
             ...this.toEndpointAttributes(event.Attributes),
             Type: [event.Type],
@@ -83,7 +149,7 @@ export class AWSPinpointClient {
           OptOut: OPT_OUT_TYPES.NONE,
         },
         Events: {
-          [eventId]: {
+          [event.Id]: {
             Attributes: this.stripLongAttributes(event.Attributes),
             EventType: event.Type.toString(),
             Timestamp: event.Timestamp.toISOString(),
