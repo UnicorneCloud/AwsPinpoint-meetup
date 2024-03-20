@@ -13,6 +13,7 @@ export interface KinesisStackProps extends ProjectStackProps {
 
 export class KinesisStack extends Stack {
   public stream: IStream
+  public fireHose: CfnDeliveryStream
 
   constructor(scope: Construct, id: string, props: KinesisStackProps) {
     super(scope, id, props);
@@ -59,7 +60,7 @@ export class KinesisStack extends Stack {
 
     firehoseRole.attachInlinePolicy(firehosePolicy)
 
-    new CfnDeliveryStream(this, 'uni-streaming-firehose-pinpoint-stream', {
+    this.fireHose =  new CfnDeliveryStream(this, 'uni-streaming-firehose-pinpoint-stream', {
       deliveryStreamType: 'DirectPut',
       kinesisStreamSourceConfiguration: {
         kinesisStreamArn: this.stream.streamArn,

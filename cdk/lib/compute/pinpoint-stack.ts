@@ -3,9 +3,11 @@ import * as kinesis from 'aws-cdk-lib/aws-kinesis';
 import * as pinpoint from 'aws-cdk-lib/aws-pinpoint';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import { ProjectStackProps } from '~/cdk/common';
+import { CfnDeliveryStream } from 'aws-cdk-lib/aws-kinesisfirehose';
 
 export interface PinpointStackProps extends ProjectStackProps {
   kinesis: kinesis.IStream
+  fireHose: CfnDeliveryStream
 }
 
 export class PinpointStack extends Stack {
@@ -15,7 +17,7 @@ export class PinpointStack extends Stack {
 
   constructor(scope: App, id: string, props: PinpointStackProps) {
     super(scope, id, props);
-    const { kinesis, ses: { identity } } = props
+    const { kinesis, fireHose, ses: { identity } } = props
 
     // create a Pinpoint application
     const pinpointApp = new pinpoint.CfnApp(this, 'uni-streaming-pinpoint', {
@@ -43,27 +45,34 @@ export class PinpointStack extends Stack {
       assumedBy: new iam.ServicePrincipal('pinpoint.amazonaws.com'),
     });
 
-    // add a policy to allow Pinpoint to access the S3 bucket
-    const pinpointKinesisPolicy = new iam.PolicyStatement({
-      effect: iam.Effect.ALLOW,
-      actions: [
-        "kinesis:PutRecords",
-        "kinesis:DescribeStream",
-      ],
-      resources: [kinesis.streamArn],
-    });
-    pinpointKinesisAccessRole.addToPolicy(pinpointKinesisPolicy)
+    // add a policy to allow Pinpoint to access the firehose
+    // const pinpointKinesisPolicy = new iam.PolicyStatement({
+    //   effect: iam.Effect.ALLOW,
+    //   actions: [
+    //     "kinesis:*",
+    //   ],
+    //   resources: [kinesis.streamArn],
+    // })
+    // const pinpointFirehosePolicy = new iam.PolicyStatement({
+    //   effect: iam.Effect.ALLOW,
+    //   actions: [
+    //     "firehose:*",
+    //   ],
+    //   resources: [fireHose.attrArn],
+    // })
+    // pinpointKinesisAccessRole.addToPolicy(pinpointKinesisPolicy)
+    // pinpointKinesisAccessRole.addToPolicy(pinpointFirehosePolicy)
 
     this.appArn = pinpointApp.attrArn
     this.senderId = smsChannel.senderId
     this.appId = pinpointApp.ref
 
-    // create an event stream to connect Pinpoint to the S3 bucket
-    new pinpoint.CfnEventStream(this, 'uni-streaming-pinpoint-event-stream', {
-      applicationId: pinpointApp.ref,
-      destinationStreamArn: kinesis.streamArn,
-      roleArn: pinpointKinesisAccessRole.roleArn,
-    })
+    // create an event stream to connect Pinpoint to the firehose
+    // new pinpoint.CfnEventStream(this, 'uni-streaming-pinpoint-event-stream', {
+    //   applicationId: pinpointApp.ref,
+    //   destinationStreamArn: fireHose.attrArn,
+    //   roleArn: pinpointKinesisAccessRole.roleArn,
+    // })
 
     const duneSegment = new pinpoint.CfnSegment(this, 'dune-watchers-segment', {
       applicationId: pinpointApp.ref,
@@ -163,6 +172,13 @@ export class PinpointStack extends Stack {
           name: dune2PromoteTemplate.templateName,
         }
       }
+    })
+
+    const recommendationsTemplate = new pinpoint.CfnEmailTemplate(this, 'recommendations-template', {
+      templateName: 'recommendations-template',
+      subject: 'Weekly recommendations',
+      htmlPart: recommendationTemplate,
+      
     })
   }
 }

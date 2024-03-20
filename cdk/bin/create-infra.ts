@@ -11,7 +11,7 @@ const s3Stack = new S3Stack(app, 'uni-streaming-s3-stack', { ...commonConfig })
 
 const kinesisStack = new KinesisStack(app, 'uni-streaming-kinesis-stack', { ...commonConfig, bucket: s3Stack.bucket })
 
-const pinpointStack = new PinpointStack(app, 'uni-streaming-pinpoint-stack', { ...commonConfig, kinesis: kinesisStack.stream })
+const pinpointStack = new PinpointStack(app, 'uni-streaming-pinpoint-stack', { ...commonConfig, kinesis: kinesisStack.stream, fireHose: kinesisStack.fireHose })
 
 const personalizeStack = new PersonalizeStack(app, 'UniStreamingPersonalize', { ...commonConfig, bucket: s3Stack.bucket })
 

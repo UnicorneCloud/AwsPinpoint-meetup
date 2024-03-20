@@ -24,16 +24,6 @@ export class LambdasStack extends Stack {
     lambdaRole.attachInlinePolicy(new iam.Policy(this, 'uni-streaming-lambda-roles-inline-policy', {
       statements: [
         new iam.PolicyStatement({
-          principals: [new iam.ServicePrincipal('pinpoint.amazonaws.com')],
-          actions: ['lambda:InvokeFunction'],
-          resources: ['arn:aws:lambda:*'],
-          conditions: {
-            StringEquals: {
-              'AWS:SourceArn': `arn:aws:mobiletargeting:${this.region}:${this.account}:recommenders/*`,
-            },
-          }
-        }),
-        new iam.PolicyStatement({
           actions: [
             'logs:*'
           ],
@@ -81,6 +71,14 @@ export class LambdasStack extends Stack {
       entry: '../backend/infra/handlers/enhanced-personalize-recommendations.ts',
       role: lambdaRole,
     })
+    enhancedRecommendationsHandler.addPermission('enhanced-recommendations-handler-pinpoint-permission',
+      // https://docs.aws.amazon.com/pinpoint/latest/developerguide/ml-models-rm-lambda.html
+      {
+        action: 'lambda:InvokeFunction',
+        principal: new iam.ServicePrincipal('pinpoint.amazonaws.com'),
+        sourceArn: `arn:aws:mobiletargeting:${this.region}:${this.account}:recommenders/*`,
+      },
+    )
     bucket.grantRead(enhancedRecommendationsHandler)
 
     const getMoviesRecommendationsHandler = new lambdaNodeJs.NodejsFunction(this, 'get-movies-recommendations-handler', {

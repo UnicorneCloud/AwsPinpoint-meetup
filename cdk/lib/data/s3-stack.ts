@@ -21,7 +21,10 @@ export class S3Stack extends Stack {
         "s3:ListBucket",
       ],
       resources: [this.bucket.bucketArn, `${this.bucket.bucketArn}/*`],
-      principals: [new iam.ServicePrincipal('personalize.amazonaws.com')]
+      principals: [
+        new iam.ServicePrincipal('personalize.amazonaws.com'),
+        new iam.ServicePrincipal('firehose.amazonaws.com'),
+      ]
     }))
   }
 }
