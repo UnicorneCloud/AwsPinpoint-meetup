@@ -47,6 +47,12 @@ export class LambdasStack extends Stack {
         }),
         new iam.PolicyStatement({
           actions: [
+            'iam:PassRole',
+          ],
+          resources: [lambdaProps.environment!.RECOMMENDER_ROLE_ARN]
+        }),
+        new iam.PolicyStatement({
+          actions: [
             'ses:Get*',
             'kinesis:ListStreams',
             'firehose:ListDeliveryStreams',
@@ -62,7 +68,7 @@ export class LambdasStack extends Stack {
               'aws:SourceAccount': this.account
             }
           }
-        })
+        }),
       ]
     }))
 
@@ -81,29 +87,37 @@ export class LambdasStack extends Stack {
     )
     bucket.grantRead(enhancedRecommendationsHandler)
 
-    const getMoviesRecommendationsHandler = new lambdaNodeJs.NodejsFunction(this, 'get-movies-recommendations-handler', {
+    const newLambdaProps: lambdaNodeJs.NodejsFunctionProps = {
       ...lambdaProps,
+      environment: {
+        ...lambdaProps.environment,
+        ENHANCED_RECOMMENDATIONS_ARN: enhancedRecommendationsHandler.functionArn,
+      }
+    }
+
+    const getMoviesRecommendationsHandler = new lambdaNodeJs.NodejsFunction(this, 'get-movies-recommendations-handler', {
+      ...newLambdaProps,
       entry: '../backend/infra/handlers/get-movies-recommendations.ts',
       role: lambdaRole,
     })
     bucket.grantRead(getMoviesRecommendationsHandler)
 
     const getTrendingMoviesHandler = new lambdaNodeJs.NodejsFunction(this, 'get-trending-movies-handler', {
-      ...lambdaProps,
+      ...newLambdaProps,
       entry: '../backend/infra/handlers/get-trending-movies.ts',
       role: lambdaRole,
     })
     bucket.grantRead(getTrendingMoviesHandler)
 
     const createTrendingMovieCampaignHandler = new lambdaNodeJs.NodejsFunction(this, 'create-trending-movie-campaign-handler', {
-      ...lambdaProps,
+      ...newLambdaProps,
       entry: '../backend/infra/handlers/create-trending-movie-campaign.ts',
       role: lambdaRole,
     })
     bucket.grantRead(createTrendingMovieCampaignHandler)
 
     const createPersonalizationSolutionVersion = new lambdaNodeJs.NodejsFunction(this, 'create-personalization-solution-version-handler', {
-      ...lambdaProps,
+      ...newLambdaProps,
       timeout: Duration.minutes(15),
       entry: '../backend/infra/handlers/create-personalize-solution-version.ts',
       role: lambdaRole,
@@ -111,7 +125,7 @@ export class LambdasStack extends Stack {
     bucket.grantRead(createPersonalizationSolutionVersion)
 
     const createPersonalizationCampaign = new lambdaNodeJs.NodejsFunction(this, 'create-personalization-campaign-handler', {
-      ...lambdaProps,
+      ...newLambdaProps,
       timeout: Duration.minutes(15),
       entry: '../backend/infra/handlers/create-personalize-campaigns.ts',
       role: lambdaRole,
@@ -119,7 +133,7 @@ export class LambdasStack extends Stack {
     bucket.grantRead(createPersonalizationCampaign)
 
     const createTrendingNowItemsSolutionVersion = new lambdaNodeJs.NodejsFunction(this, 'create-trending-now-items-solution-version-handler', {
-      ...lambdaProps,
+      ...newLambdaProps,
       timeout: Duration.minutes(15),
       entry: '../backend/infra/handlers/create-trending-now-items-solution-version.ts',
       role: lambdaRole,
@@ -127,15 +141,23 @@ export class LambdasStack extends Stack {
     bucket.grantRead(createTrendingNowItemsSolutionVersion)
 
     const createTrendingNowItemsCampaign = new lambdaNodeJs.NodejsFunction(this, 'create-trending-now-items-campaign-handler', {
-      ...lambdaProps,
+      ...newLambdaProps,
       timeout: Duration.minutes(15),
       entry: '../backend/infra/handlers/create-trending-now-items-campaigns.ts',
       role: lambdaRole,
     })
     bucket.grantRead(createTrendingNowItemsCampaign)
 
+    const createRecommendationsCampaign = new lambdaNodeJs.NodejsFunction(this, 'create-recommendations-campaign-handler', {
+      ...newLambdaProps,
+      timeout: Duration.minutes(15),
+      entry: '../backend/infra/handlers/create-recommendations-campaign.ts',
+      role: lambdaRole,
+    })
+    bucket.grantRead(createRecommendationsCampaign)
+
     const createDatasetEventsTracker = new lambdaNodeJs.NodejsFunction(this, 'create-dataset-events-tracker', {
-      ...lambdaProps,
+      ...newLambdaProps,
       timeout: Duration.minutes(15),
       entry: '../backend/infra/handlers/create-personalize-event-tracker.ts',
       role: lambdaRole,
@@ -143,7 +165,7 @@ export class LambdasStack extends Stack {
     bucket.grantRead(createDatasetEventsTracker)
 
     const createUsersInteractions = new lambdaNodeJs.NodejsFunction(this, 'create-users-interactions-handler', {
-      ...lambdaProps,
+      ...newLambdaProps,
       timeout: Duration.minutes(10),
       entry: '../backend/infra/handlers/create-users-interactions.ts',
       role: lambdaRole,

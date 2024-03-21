@@ -24,6 +24,8 @@ const lambdaEnv = {
   TRENDING_NOW_RECIPE_ARN: personalizeStack.trendingItemsSolution.recipeArn || '',
   PINPOINT_APP_ID: pinpointStack.appId,
   BUCKET_NAME: s3Stack.bucket.bucketName,
+  RECOMMENDER_ROLE_ARN: pinpointStack.recommenderRole.roleArn,
+  WEBAPP_SEGMENT_ID: pinpointStack.webAppSegment.attrSegmentId,
 }
 
 new LambdasStack(app, 'uni-streaming-movies-stack', {

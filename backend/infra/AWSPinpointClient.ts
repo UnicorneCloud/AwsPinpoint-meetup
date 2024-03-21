@@ -1,9 +1,11 @@
-import { CreateCampaignCommand, CreateSegmentCommand, EventsBatch, PinpointClient, PutEventsCommand } from '@aws-sdk/client-pinpoint'
+import { CreateCampaignCommand, CreateEmailTemplateCommand, CreateRecommenderConfigurationCommand, CreateSegmentCommand, EventsBatch, PinpointClient, PutEventsCommand } from '@aws-sdk/client-pinpoint'
 import { Injector } from '@sailplane/injector'
 import { Logger } from '@sailplane/logger'
 
 import { Event, Movie, User } from '../domain'
 import { EnvKeys, getEnvVariable } from '../env'
+import { SSMStore, StoreKeys } from './SSMStore'
+import { recommendationTemplate } from './emails'
 
 const MAX_LENGTH = 200
 
@@ -16,8 +18,8 @@ export enum CHANNEL_TYPES {
 }
 
 export enum OPT_OUT_TYPES {
-  NONE = "NONE",
-  ALL = "ALL"
+  NONE = 'NONE',
+  ALL = 'ALL'
 }
 
 export enum ENDPOINT_STATUS {
@@ -33,7 +35,7 @@ export type EventParam<T extends Record<string, string>> = {
 const logger = new Logger('AWSPinpointClient')
 
 export class AWSPinpointClient {
-  constructor(private client: PinpointClient, private appId: string) {}
+  constructor(private client: PinpointClient, private appId: string, private ssmStore: SSMStore) {}
 
   private toEndpointAttributes(data: Record<string, string>): Record<string, string[]> {
     const keys = Object.keys(data)
@@ -104,9 +106,10 @@ export class AWSPinpointClient {
           StartTime: 'IMMEDIATE',
           Timezone: 'UTC-04'
         },
+        HoldoutPercent: 99,
         MessageConfiguration: {
           EmailMessage: {
-            FromAddress: 'philippe.trepanier@unicorne.cloud',
+            FromAddress: 'uni-streaming@unicornpowered.io',
             Title: `${movie.Name} is trending now!`,
             Body: `You might want to watch this trending movie: ${movie.Name} - ${movie.Category} - ${movie.Description}`,
           }
@@ -122,6 +125,86 @@ export class AWSPinpointClient {
     }
 
     throw new Error('CampaignResponse could not be created')
+  }
+
+  async createRecommenderModel(modelName: string): Promise<void> {
+    const recommenderArn = await this.ssmStore.get(StoreKeys.PERSONALIZATION_CAMPAIGN_ARN)
+    const request = new CreateRecommenderConfigurationCommand({
+      CreateRecommenderConfiguration: {
+        Name: modelName,
+        RecommendationProviderRoleArn: getEnvVariable(EnvKeys.RECOMMENDER_ROLE_ARN),
+        RecommendationsPerMessage: 5,
+        RecommendationProviderUri: recommenderArn,
+        RecommendationTransformerUri: getEnvVariable(EnvKeys.ENHANCED_RECOMMENDATIONS_ARN),
+        RecommendationProviderIdType: 'PINPOINT_ENDPOINT_ID',
+        Attributes: {
+          'Recommendations.Name': 'Name',
+          'Recommendations.Category': 'Category',
+          'Recommendations.Description': 'Description',
+        }
+      }
+    })
+    const { RecommenderConfigurationResponse } = await this.client.send(request)
+    logger.info('Response', RecommenderConfigurationResponse)
+
+    if (RecommenderConfigurationResponse && RecommenderConfigurationResponse.Id) {
+      await this.ssmStore.put(StoreKeys.RECOMMENDER_ID, RecommenderConfigurationResponse.Id)
+    } else {
+      throw new Error('Recommender model could not be created')
+    }
+  }
+
+  async createRecommendationsTemplate(templateName: string): Promise<void> {
+    const recommenderId = await this.ssmStore.get(StoreKeys.RECOMMENDER_ID)
+    const request = new CreateEmailTemplateCommand({
+      TemplateName: templateName,
+      EmailTemplateRequest: {
+        Subject: 'See your weekly recommendations!',
+        HtmlPart: recommendationTemplate,
+        RecommenderId: recommenderId,
+      }
+    })
+
+    const { CreateTemplateMessageBody } = await this.client.send(request)
+
+    if (CreateTemplateMessageBody) {
+      await this.ssmStore.put(StoreKeys.RECOMMENDATIONS_TEMPLATE_NAME, templateName)
+    } else {
+      throw new Error('Template could not be created')
+    }
+  }
+
+  async createWeeklyRecommendationsCampaign(campaignName: string): Promise<void> {
+    const templateName = await this.ssmStore.get(StoreKeys.RECOMMENDATIONS_TEMPLATE_NAME)
+    const request = new CreateCampaignCommand({
+      ApplicationId: getEnvVariable(EnvKeys.PINPOINT_APP_ID),
+      WriteCampaignRequest: {
+        Name: campaignName,
+        SegmentId: getEnvVariable(EnvKeys.WEBAPP_SEGMENT_ID),
+        HoldoutPercent: 99,
+        Schedule: {
+          // Set up this date to what you want
+          StartTime: new Date(2024, 2, 20, 14, 30, 0).toISOString(),
+          Frequency: 'WEEKLY',
+          Timezone: 'UTC-04',
+          // Set up this date to what you want
+          EndTime: new Date(2024, 3, 20, 14, 30, 0).toISOString()
+        },
+        MessageConfiguration: {
+          EmailMessage: {
+            FromAddress: 'uni-streaming@unicornpowered.io',
+          }
+        },
+        TemplateConfiguration: {
+          EmailTemplate: {
+            Name: templateName,
+          }
+        }
+      }
+    })
+
+    const { CampaignResponse } = await this.client.send(request)
+    logger.info('Response from campaign creation', CampaignResponse)
   }
 
   async sendEvents<T extends Record<string, string>>(params: EventParam<T>[]): Promise<void> {
@@ -173,7 +256,7 @@ export class AWSPinpointClient {
 const createClient = (): AWSPinpointClient => {
   const client = new PinpointClient({ region: getEnvVariable(EnvKeys.REGION) })
   const appId = getEnvVariable(EnvKeys.PINPOINT_APP_ID)
-  return new AWSPinpointClient(client, appId)
+  return new AWSPinpointClient(client, appId, Injector.get(SSMStore)!)
 }
 
 Injector.register(AWSPinpointClient, createClient)

@@ -27,6 +27,12 @@ export class MovieService {
     const campaignName = `did-not-watch-${trendingMovie.Name.replace(/ /g, '')}-campaign`
     await this.pinpointClient.createCampaignForTrendingMovie(trendingMovie, campaignName, segmentId)
   }
+
+  async createRecommendationsCampaign() {
+    await this.pinpointClient.createRecommenderModel('personalization-model')
+    await this.pinpointClient.createRecommendationsTemplate('personalization-recommendations-template')
+    await this.pinpointClient.createWeeklyRecommendationsCampaign('personalization-campaign')
+  }
 }
 
 Injector.register(MovieService, [AWSMovieRepository, AWSPinpointClient])

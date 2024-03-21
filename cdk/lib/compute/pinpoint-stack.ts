@@ -14,10 +14,12 @@ export class PinpointStack extends Stack {
   public appId: string
   public senderId: string
   public appArn: string
+  public recommenderRole: iam.Role
+  public webAppSegment: pinpoint.CfnSegment
 
   constructor(scope: App, id: string, props: PinpointStackProps) {
     super(scope, id, props);
-    const { kinesis, fireHose, ses: { identity } } = props
+    const { kinesis, fireHose, ses: { identity, email } } = props
 
     // create a Pinpoint application
     const pinpointApp = new pinpoint.CfnApp(this, 'uni-streaming-pinpoint', {
@@ -31,7 +33,7 @@ export class PinpointStack extends Stack {
 
     new pinpoint.CfnEmailChannel(this, 'uni-streaming-pinpoint-email-channel', {
       applicationId: pinpointApp.ref,
-      fromAddress: 'uni-streaming@unicorne.cloud',
+      fromAddress: email,
       enabled: true,
       identity: identity,
     })
@@ -49,14 +51,14 @@ export class PinpointStack extends Stack {
     // const pinpointKinesisPolicy = new iam.PolicyStatement({
     //   effect: iam.Effect.ALLOW,
     //   actions: [
-    //     "kinesis:*",
+    //     'kinesis:*',
     //   ],
     //   resources: [kinesis.streamArn],
     // })
     // const pinpointFirehosePolicy = new iam.PolicyStatement({
     //   effect: iam.Effect.ALLOW,
     //   actions: [
-    //     "firehose:*",
+    //     'firehose:*',
     //   ],
     //   resources: [fireHose.attrArn],
     // })
@@ -118,6 +120,50 @@ export class PinpointStack extends Stack {
       },
     })
 
+    this.webAppSegment = new pinpoint.CfnSegment(this, 'webapp-users-segment', {
+      applicationId: pinpointApp.ref,
+      name: 'webapp-users-segment',
+      segmentGroups: {
+        groups: [
+          {
+            dimensions: [
+              {
+                demographic: {
+                  appVersion: {
+                    dimensionType: 'INCLUSIVE',
+                    values: ['Webapp']
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        include: 'ANY',
+      },
+    })
+
+    const dormantUsersSegment = new pinpoint.CfnSegment(this, 'dormant-users-segment', {
+      applicationId: pinpointApp.ref,
+      name: 'dormant-users-segment',
+      segmentGroups: {
+        groups: [
+          {
+            dimensions: [
+              {
+                behavior: {
+                  recency: {
+                    duration: 'DAY_14',
+                    recencyType: 'INACTIVE',
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        include: 'ANY',
+      }
+    })
+
     const dunePromoteTemplate = new pinpoint.CfnEmailTemplate(this, 'dune-promote-template', {
       templateName: 'dune-promote',
       subject: 'Watch Dune!',
@@ -143,7 +189,7 @@ export class PinpointStack extends Stack {
       },
       messageConfiguration: {
         emailMessage: {
-          fromAddress: 'philippe.trepanier@unicorne.cloud'
+          fromAddress: email,
         }
       },
       templateConfiguration: {
@@ -164,7 +210,7 @@ export class PinpointStack extends Stack {
       },
       messageConfiguration: {
         emailMessage: {
-          fromAddress: 'philippe.trepanier@unicorne.cloud'
+          fromAddress: email,
         }
       },
       templateConfiguration: {
@@ -174,11 +220,21 @@ export class PinpointStack extends Stack {
       }
     })
 
-    const recommendationsTemplate = new pinpoint.CfnEmailTemplate(this, 'recommendations-template', {
-      templateName: 'recommendations-template',
-      subject: 'Weekly recommendations',
-      htmlPart: recommendationTemplate,
-      
+    this.recommenderRole = new iam.Role(this, 'uni-streaming-recommender-role', {
+      roleName: 'uni-streaming-recommender-role',
+      assumedBy: new iam.ServicePrincipal('pinpoint.amazonaws.com'),
     })
+    this.recommenderRole.addToPolicy(new iam.PolicyStatement({
+      effect: iam.Effect.ALLOW,
+      actions: [
+        'personalize:GetRecommendations',
+        'personalize:DescribeCampaign',
+        'personalize:DescribeSolution',
+      ],
+      resources: [
+        `arn:aws:personalize:${this.region}:${this.account}:campaign/*`,
+        `arn:aws:personalize:${this.region}:${this.account}:solution/*`
+      ]
+    }))
   }
 }
