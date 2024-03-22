@@ -176,6 +176,9 @@ export class AWSPinpointClient {
 
   async createWeeklyRecommendationsCampaign(campaignName: string): Promise<void> {
     const templateName = await this.ssmStore.get(StoreKeys.RECOMMENDATIONS_TEMPLATE_NAME)
+    const now = new Date()
+    now.setHours(10)
+    now.setMinutes(30)
     const request = new CreateCampaignCommand({
       ApplicationId: getEnvVariable(EnvKeys.PINPOINT_APP_ID),
       WriteCampaignRequest: {
@@ -184,7 +187,7 @@ export class AWSPinpointClient {
         HoldoutPercent: 99,
         Schedule: {
           // Set up this date to what you want
-          StartTime: new Date(2024, 2, 20, 14, 30, 0).toISOString(),
+          StartTime: now.toISOString(),
           Frequency: 'WEEKLY',
           Timezone: 'UTC-04',
           // Set up this date to what you want
