@@ -102,7 +102,7 @@ export class AWSPinpointClient {
         SegmentId: segmentId,
         Schedule: {
           Frequency: 'ONCE',
-          IsLocalTime: true,
+          IsLocalTime: false,
           StartTime: 'IMMEDIATE',
           Timezone: 'UTC-04'
         },
